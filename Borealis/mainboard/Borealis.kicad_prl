@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Borealis-control-panel.kicad_prl",
+    "filename": "Borealis.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
