@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from numpy import *
+import numpy as np
 import csv
 
 class getter:
