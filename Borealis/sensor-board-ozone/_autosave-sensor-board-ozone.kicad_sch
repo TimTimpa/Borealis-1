@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "31536c3d-d3f9-4dfb-892e-75fc519025d6")
+	(uuid "02d62f2f-c7cc-4984-8541-1469cdc83313")
 	(paper "A4")
 	(lib_symbols
 		(symbol "ADS1115IDGSR_2025-12-25-altium-import:root_0_ADS1115IDGSR_"
@@ -1104,294 +1104,294 @@
 		)
 	)
 	(junction
-		(at 76.2 125.73)
+		(at 49.53 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0080fb8e-4738-42c1-8595-eb6047d2465e")
+		(uuid "7fd36018-e15d-4439-ae47-2c515bcc13dd")
 	)
 	(wire
 		(pts
-			(xy 144.78 113.03) (xy 144.78 115.57)
+			(xy 135.89 77.47) (xy 138.43 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0efa6333-e8e7-4d4c-8fe3-67856d0078cb")
+		(uuid "099136c6-3764-48c1-bf3d-bdd72923541e")
 	)
 	(wire
 		(pts
-			(xy 76.2 134.62) (xy 76.2 138.43)
+			(xy 133.35 64.77) (xy 138.43 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cdb3a55-f14c-42e0-9565-af60345caea5")
+		(uuid "2122a361-002e-40c1-a943-4b72f9fcc19f")
 	)
 	(wire
 		(pts
-			(xy 148.59 72.39) (xy 153.67 72.39)
+			(xy 133.35 59.69) (xy 138.43 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f9faaee-64b5-4685-950e-ab0b707b898f")
+		(uuid "2446583a-08d3-40c7-b094-7f7e4a332a8c")
 	)
 	(wire
 		(pts
-			(xy 76.2 125.73) (xy 76.2 127)
+			(xy 52.07 107.95) (xy 52.07 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30478c46-a0ce-4544-86d6-74433192d51f")
+		(uuid "36a88039-8e4f-4492-b685-13e325b0fae0")
 	)
 	(wire
 		(pts
-			(xy 60.96 92.71) (xy 77.47 92.71)
+			(xy 81.28 54.61) (xy 85.09 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a5b58d5-c351-4d7d-b0bf-1a91aa731183")
+		(uuid "3f01a72f-569c-4889-882e-aacf3046e28c")
 	)
 	(wire
 		(pts
-			(xy 107.95 85.09) (xy 111.76 85.09)
+			(xy 49.53 95.25) (xy 49.53 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e9194da-b67c-4ce0-b210-ee022da425aa")
+		(uuid "45d4b678-b2e5-4ac7-bfc7-0c62353eff79")
 	)
 	(wire
 		(pts
-			(xy 76.2 125.73) (xy 83.82 125.73)
+			(xy 81.28 57.15) (xy 85.09 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "406325e5-26f2-4d16-825a-0c5856e58c29")
+		(uuid "50ac5ad6-c4f2-478f-9594-60f497d0df83")
 	)
 	(wire
 		(pts
-			(xy 74.93 87.63) (xy 77.47 87.63)
+			(xy 129.54 100.33) (xy 129.54 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4562b16c-c4ad-43de-9d6a-b4a42f08d3f4")
+		(uuid "66e1e1cc-52ab-44bf-b24e-afc05cd26211")
 	)
 	(wire
 		(pts
-			(xy 78.74 135.89) (xy 82.55 135.89)
+			(xy 81.28 52.07) (xy 85.09 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "618534f7-4a1a-4ee2-bf91-27fd1c74a5a4")
+		(uuid "6ab58eb4-b239-45b9-bd55-7d0cc889854d")
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 111.76 82.55)
+			(xy 52.07 105.41) (xy 55.88 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67e1c123-20b5-4471-ab48-fe5a29afda34")
+		(uuid "888e87a6-4eeb-476c-8f07-afe852824e5d")
 	)
 	(wire
 		(pts
-			(xy 76.2 113.03) (xy 76.2 116.84)
+			(xy 49.53 104.14) (xy 49.53 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "970afc88-a6c6-4205-b56b-204d7207ae66")
+		(uuid "8afb2849-9350-4ad7-be9f-40873535fc0d")
 	)
 	(wire
 		(pts
-			(xy 107.95 87.63) (xy 111.76 87.63)
+			(xy 129.54 113.03) (xy 129.54 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97b65e6a-69c0-4129-b2e7-ce8c5a659e38")
+		(uuid "98cfc5d6-1c21-41c9-a0d9-e9a3aa54c291")
 	)
 	(wire
 		(pts
-			(xy 148.59 77.47) (xy 153.67 77.47)
+			(xy 49.53 95.25) (xy 57.15 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e5a318e-a47e-44a3-b0c1-a846eeec7e61")
+		(uuid "9967d93e-dbf8-48d6-bc6a-ef6e233e6643")
 	)
 	(wire
 		(pts
-			(xy 144.78 125.73) (xy 144.78 123.19)
+			(xy 34.29 62.23) (xy 50.8 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab54709b-7c38-4506-9ad3-402856cc50f2")
+		(uuid "a2e35745-facd-4c14-98e5-f4e176873994")
 	)
 	(wire
 		(pts
-			(xy 78.74 138.43) (xy 78.74 135.89)
+			(xy 49.53 82.55) (xy 49.53 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "add2d8c5-4336-40ef-8bf1-65d6f3f2047e")
+		(uuid "a3010670-ef86-4537-b3fd-d9fca7a6269d")
 	)
 	(wire
 		(pts
-			(xy 151.13 92.71) (xy 153.67 92.71)
+			(xy 48.26 57.15) (xy 50.8 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e45d5a9a-4886-4e90-8573-863622e88583")
+		(uuid "b7c5310c-2760-4ba0-b801-30543d577f9d")
 	)
 	(wire
 		(pts
-			(xy 151.13 90.17) (xy 153.67 90.17)
+			(xy 135.89 74.93) (xy 138.43 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5e752c1-7868-4e7a-b229-795613a5d44e")
+		(uuid "c674fa80-e0e0-41bc-b1ce-f423a8aa0f45")
 	)
 	(wire
 		(pts
-			(xy 76.2 124.46) (xy 76.2 125.73)
+			(xy 135.89 80.01) (xy 138.43 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9d5cf15-e7e3-4e98-bd88-7868568ef689")
+		(uuid "d1082c99-31c1-49dd-bc08-280865294678")
 	)
 	(wire
 		(pts
-			(xy 151.13 87.63) (xy 153.67 87.63)
+			(xy 49.53 93.98) (xy 49.53 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdff7a86-32d3-4353-baa7-ed60a58c35bb")
+		(uuid "d8b9b67f-b585-4509-af7f-7516423c21c9")
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 153.67 74.93)
+			(xy 133.35 62.23) (xy 138.43 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffb07eae-1e1e-4459-bff2-c5c0da318ff7")
-	)
-	(label "Solar_Analog"
-		(at 83.82 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07701296-bf5f-4e8e-9fc2-4344063b9a8c")
-	)
-	(label "ADC"
-		(at 148.59 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "588b7e61-6cc9-476d-bbbe-4ae7c37c34a0")
+		(uuid "e0edb1dc-74bc-4051-bbc6-e75129334f0e")
 	)
 	(label "SCL"
-		(at 111.76 82.55 0)
+		(at 133.35 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7869ac95-b7eb-49a5-9fd1-a085a09b02c4")
+		(uuid "00ce7481-0200-48f8-97d3-05067c0bb8d1")
 	)
-	(label "SDA"
-		(at 148.59 74.93 0)
+	(label "MQ_Analog"
+		(at 34.29 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "86b5058d-3411-48bb-b492-c9d7cf029930")
+		(uuid "1a9ca966-a37c-4140-943a-e28a0098b7ba")
 	)
 	(label "ADC"
-		(at 144.78 125.73 0)
+		(at 133.35 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c2f80b17-da23-4713-8a63-55c13d69af92")
-	)
-	(label "Solar_Analog"
-		(at 60.96 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c39ada57-a870-48d8-9d18-c94b3208e435")
+		(uuid "2150cbe1-46a2-443e-8466-5ca87eaa3bdb")
 	)
 	(label "SDA"
-		(at 111.76 85.09 0)
+		(at 133.35 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "db0db164-963a-4a95-b985-49b401f68a0e")
+		(uuid "7b76d4ff-4a4f-4bdf-9571-6fa015883393")
+	)
+	(label "SDA"
+		(at 85.09 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d273425-5c33-424d-a2de-205caf8d5707")
 	)
 	(label "SCL"
-		(at 148.59 77.47 0)
+		(at 85.09 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e252dc87-b60a-4ec3-b601-5474d64c7a06")
+		(uuid "96cf6d0f-c834-485c-a190-cfc1b0e6184b")
+	)
+	(label "Solar_Analog"
+		(at 57.15 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b931cae6-cc48-4992-8d70-20acf1bee5b3")
+	)
+	(label "ADC"
+		(at 129.54 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc655980-a628-4d87-9b2c-5e90fa384d0e")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 151.13 90.17 90)
+		(at 135.89 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1400,7 +1400,7 @@
 		(fields_autoplaced yes)
 		(uuid "0696218c-2b18-46cc-8143-3eaa090505fb")
 		(property "Reference" "#PWR012"
-			(at 154.94 90.17 0)
+			(at 139.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1409,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 147.32 90.1699 90)
+			(at 132.08 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 90.17 0)
+			(at 135.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 90.17 0)
+			(at 135.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 151.13 90.17 0)
+			(at 135.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,8 +1448,8 @@
 			(uuid "65fe7a32-678d-4709-9867-1238488677f6")
 		)
 		(instances
-			(project "sensor-board-solar"
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -1458,7 +1458,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 151.13 87.63 90)
+		(at 135.89 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1467,7 +1467,7 @@
 		(fields_autoplaced yes)
 		(uuid "06d934c4-704e-4324-8d5c-ea8ee426b2db")
 		(property "Reference" "#PWR013"
-			(at 154.94 87.63 0)
+			(at 139.7 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,7 +1476,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 87.6299 90)
+			(at 132.08 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +1485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 87.63 0)
+			(at 135.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +1494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 87.63 0)
+			(at 135.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1503,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 87.63 0)
+			(at 135.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,8 +1515,8 @@
 			(uuid "f4a5049f-4d23-40a7-92ea-1dec5eb05a52")
 		)
 		(instances
-			(project "sensor-board-solar"
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -1525,7 +1525,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 158.75 74.93 180)
+		(at 143.51 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1534,7 +1534,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b0bb9df-7255-4d09-a42e-e1f7d5501e69")
 		(property "Reference" "J2"
-			(at 160.02 73.6599 0)
+			(at 144.78 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1543,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin (data connection to main board)"
-			(at 160.02 76.1999 0)
+			(at 144.78 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,8 +1551,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "batteryholder:1x03 2.3 pitch"
-			(at 158.75 74.93 0)
+		(property "Footprint" ""
+			(at 143.51 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 74.93 0)
+			(at 143.51 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 158.75 74.93 0)
+			(at 143.51 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,8 +1588,8 @@
 			(uuid "b034968b-74bf-4a27-b307-39e096139391")
 		)
 		(instances
-			(project "sensor-board-solar"
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "J2")
 					(unit 1)
 				)
@@ -1598,7 +1598,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 158.75 90.17 180)
+		(at 143.51 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1607,7 +1607,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c25f71d-0cb7-4ec9-8770-925293c2e954")
 		(property "Reference" "J5"
-			(at 160.02 88.8999 0)
+			(at 144.78 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1616,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin (power connection to main board)"
-			(at 160.02 91.4399 0)
+			(at 144.78 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,8 +1624,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "batteryholder:1x03 2.3 pitch"
-			(at 158.75 90.17 0)
+		(property "Footprint" ""
+			(at 143.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 90.17 0)
+			(at 143.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1643,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 158.75 90.17 0)
+			(at 143.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,8 +1661,8 @@
 			(uuid "76c734d3-aaff-4dbb-9cad-1636ef8f720a")
 		)
 		(instances
-			(project "sensor-board-solar"
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "J5")
 					(unit 1)
 				)
@@ -1671,7 +1671,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 111.76 87.63 270)
+		(at 85.09 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1680,7 +1680,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e751b53-c780-4f92-8d2a-59d7e14c41ba")
 		(property "Reference" "#PWR03"
-			(at 107.95 87.63 0)
+			(at 81.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1689,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 115.57 87.6299 90)
+			(at 88.9 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 87.63 0)
+			(at 85.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 87.63 0)
+			(at 85.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 111.76 87.63 0)
+			(at 85.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,8 +1728,8 @@
 			(uuid "44e783d7-f05b-49e0-8bf2-e660f105d794")
 		)
 		(instances
-			(project ""
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -1738,7 +1738,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 135.89 90)
+		(at 55.88 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1747,7 +1747,7 @@
 		(fields_autoplaced yes)
 		(uuid "57f89af3-4a4e-4b81-9c59-931e105aedbf")
 		(property "Reference" "#PWR04"
-			(at 88.9 135.89 0)
+			(at 62.23 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 135.8899 90)
+			(at 59.69 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 135.89 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 135.89 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 135.89 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,8 +1795,8 @@
 			(uuid "f6cdffea-7cc6-433d-ae77-9296c6772fea")
 		)
 		(instances
-			(project ""
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -1805,7 +1805,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 120.65 0)
+		(at 49.53 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1814,7 +1814,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cb6d1d8-9b85-420a-8c18-0131baa9c0a9")
 		(property "Reference" "R3"
-			(at 78.74 119.3799 0)
+			(at 52.07 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1823,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 78.74 121.9199 0)
+			(at 52.07 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.422 120.65 90)
+			(at 47.752 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 120.65 0)
+			(at 49.53 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1850,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 120.65 0)
+			(at 49.53 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,8 +1865,8 @@
 			(uuid "dfc0b38a-0ab1-47c0-b7ea-469f3b13965f")
 		)
 		(instances
-			(project ""
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "R3")
 					(unit 1)
 				)
@@ -1875,7 +1875,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 144.78 113.03 0)
+		(at 129.54 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1884,7 +1884,7 @@
 		(fields_autoplaced yes)
 		(uuid "7106f204-5aee-4898-8cec-6039acf9fc18")
 		(property "Reference" "#PWR02"
-			(at 144.78 116.84 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1893,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 144.78 107.95 0)
+			(at 129.54 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 113.03 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +1910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 113.03 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +1919,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 144.78 113.03 0)
+			(at 129.54 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,8 +1931,8 @@
 			(uuid "703580a4-1199-4be3-a7a5-5767caa20b36")
 		)
 		(instances
-			(project "sensor-board-solar"
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -1941,7 +1941,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 87.63 270)
+		(at 48.26 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1950,7 +1950,7 @@
 		(fields_autoplaced yes)
 		(uuid "72d60380-7280-49d3-bebc-4063e895fbcd")
 		(property "Reference" "#PWR01"
-			(at 68.58 87.63 0)
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +1959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 87.6299 90)
+			(at 44.45 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 87.63 0)
+			(at 48.26 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 87.63 0)
+			(at 48.26 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +1986,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 87.63 0)
+			(at 48.26 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,8 +1998,8 @@
 			(uuid "4256d75e-bda2-4c65-b5d6-f2b6682e6a86")
 		)
 		(instances
-			(project ""
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -2008,7 +2008,7 @@
 	)
 	(symbol
 		(lib_id "ADS1115IDGSR_2025-12-25-altium-import:root_0_ADS1115IDGSR_")
-		(at 92.71 87.63 0)
+		(at 66.04 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2016,7 +2016,7 @@
 		(dnp no)
 		(uuid "87e9f084-2a12-4d30-ab29-bf07aee4c3cb")
 		(property "Reference" "ADS1115IDGSR1"
-			(at 107.95 80.01 0)
+			(at 81.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2025,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 92.71 80.01 0)
+			(at 66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +2034,7 @@
 			)
 		)
 		(property "Footprint" "batteryholder:ADS1115IDGSR"
-			(at 92.71 87.63 0)
+			(at 66.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 87.63 0)
+			(at 66.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +2052,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 87.63 0)
+			(at 66.04 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,8 +2091,8 @@
 			(uuid "2671c1d1-4b1e-483b-b93e-d18957af0a4d")
 		)
 		(instances
-			(project "sensor-board-solar"
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "ADS1115IDGSR1")
 					(unit 1)
 				)
@@ -2101,7 +2101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 92.71 270)
+		(at 135.89 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2110,7 +2110,7 @@
 		(fields_autoplaced yes)
 		(uuid "98402360-58ef-46bc-8d96-13646d1ca60a")
 		(property "Reference" "#PWR011"
-			(at 144.78 92.71 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 92.7099 90)
+			(at 132.08 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 92.71 0)
+			(at 135.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 92.71 0)
+			(at 135.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2146,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 92.71 0)
+			(at 135.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,8 +2158,8 @@
 			(uuid "7d00c16e-40c3-4dfb-97a7-53c1dd816be0")
 		)
 		(instances
-			(project "sensor-board-solar"
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -2168,7 +2168,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 130.81 0)
+		(at 49.53 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2177,7 +2177,7 @@
 		(fields_autoplaced yes)
 		(uuid "b40637b5-8701-43a9-8a2d-02d80be4c3d1")
 		(property "Reference" "R2"
-			(at 78.74 129.5399 0)
+			(at 52.07 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2186,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 78.74 132.0799 0)
+			(at 52.07 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.422 130.81 90)
+			(at 47.752 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 130.81 0)
+			(at 49.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2213,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 130.81 0)
+			(at 49.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,8 +2228,8 @@
 			(uuid "768fb255-6ace-4e89-9c48-5afd0ae55021")
 		)
 		(instances
-			(project ""
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "R2")
 					(unit 1)
 				)
@@ -2238,7 +2238,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 76.2 143.51 90)
+		(at 49.53 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2247,7 +2247,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7b0eb95-1909-402b-92fb-e70ba887db5a")
 		(property "Reference" "J1"
-			(at 80.01 141.6049 90)
+			(at 53.34 111.1249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2256,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin (Solar panel connection)"
-			(at 80.01 144.1449 90)
+			(at 53.34 113.6649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 143.51 0)
+			(at 49.53 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 143.51 0)
+			(at 49.53 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2283,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 76.2 143.51 0)
+			(at 49.53 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,8 +2298,8 @@
 			(uuid "c14fe26d-4bdb-443a-ab23-ca357be5d4bf")
 		)
 		(instances
-			(project ""
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "J1")
 					(unit 1)
 				)
@@ -2308,7 +2308,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 113.03 180)
+		(at 49.53 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2317,7 +2317,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0afb507-e139-42e7-a7cb-7d37cf8e8eb7")
 		(property "Reference" "#PWR05"
-			(at 76.2 106.68 0)
+			(at 49.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2326,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 107.95 0)
+			(at 49.53 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 113.03 0)
+			(at 49.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 113.03 0)
+			(at 49.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 113.03 0)
+			(at 49.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,8 +2364,8 @@
 			(uuid "c0782037-e5c5-462d-bf1d-3c120e54a39a")
 		)
 		(instances
-			(project ""
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -2374,7 +2374,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 119.38 0)
+		(at 129.54 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2383,7 +2383,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0c59d9f-c58e-4015-b8b9-3e8903a44b05")
 		(property "Reference" "R1"
-			(at 147.32 118.1099 0)
+			(at 132.08 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2392,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 147.32 120.6499 0)
+			(at 132.08 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2401,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
-			(at 143.002 119.38 90)
+			(at 127.762 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 119.38 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2419,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 119.38 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,8 +2434,8 @@
 			(uuid "6546a337-0731-406d-a6db-300669603c1e")
 		)
 		(instances
-			(project "sensor-board-solar"
-				(path "/31536c3d-d3f9-4dfb-892e-75fc519025d6"
+			(project "sensor-board-ozone"
+				(path "/02d62f2f-c7cc-4984-8541-1469cdc83313"
 					(reference "R1")
 					(unit 1)
 				)
