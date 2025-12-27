@@ -1523,6 +1523,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 114.3) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f93b7c-76a3-4dfd-9b1c-472431205b5e")
+	)
+	(wire
+		(pts
 			(xy 146.05 111.76) (xy 146.05 114.3)
 		)
 		(stroke
@@ -1530,6 +1540,26 @@
 			(type default)
 		)
 		(uuid "3d75ba2c-61ca-40f4-b6ae-46aa9d535712")
+	)
+	(wire
+		(pts
+			(xy 95.25 54.61) (xy 110.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a9a73b-8bd1-4573-a79a-d74982492063")
+	)
+	(wire
+		(pts
+			(xy 46.99 59.69) (xy 52.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b511d2-1583-4429-8e2b-46672c053f54")
 	)
 	(wire
 		(pts
@@ -1550,6 +1580,26 @@
 			(type default)
 		)
 		(uuid "60fb2e99-d40e-40a9-bfee-c13a05baa4a5")
+	)
+	(wire
+		(pts
+			(xy 46.99 57.15) (xy 52.07 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c24b995-99cf-4bd9-bbaa-7abef2e48bfb")
+	)
+	(wire
+		(pts
+			(xy 33.02 52.07) (xy 52.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a35fc9-e7e8-48e8-b14a-6f6ca369b848")
 	)
 	(wire
 		(pts
@@ -1613,6 +1663,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 54.61) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959ea626-1342-4e62-af57-2d6e6e146d12")
+	)
+	(wire
+		(pts
 			(xy 149.86 71.12) (xy 154.94 71.12)
 		)
 		(stroke
@@ -1623,6 +1683,26 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 111.76) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcfb848-3124-428a-91b5-618fae261c57")
+	)
+	(wire
+		(pts
+			(xy 46.99 44.45) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d729d538-53c3-4f66-aa70-49291f17d6ca")
+	)
+	(wire
+		(pts
 			(xy 149.86 76.2) (xy 154.94 76.2)
 		)
 		(stroke
@@ -1630,6 +1710,56 @@
 			(type default)
 		)
 		(uuid "e74d6bc0-8c57-42b0-b87d-3911112f7abd")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 83.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea068582-c641-481a-b966-e957dc63a611")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 83.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd817d9-820c-4330-ac14-f49b85da5399")
+	)
+	(label "MISO"
+		(at 33.02 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b22e680-2b05-4e56-b996-34f1f5c5102c")
+	)
+	(label "MISO"
+		(at 83.82 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15c2a1cf-d971-4808-a590-48ead082d5f4")
+	)
+	(label "SDA"
+		(at 46.99 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a263026-3972-4fcc-bfcd-620e2f7fe3d9")
 	)
 	(label "ADC"
 		(at 146.05 124.46 0)
@@ -1650,6 +1780,76 @@
 			(justify left bottom)
 		)
 		(uuid "440f210f-2cc9-4109-9eaa-fdddd572339d")
+	)
+	(label "SCL"
+		(at 46.99 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a65135c-72d2-48be-a734-3e66b9c3e129")
+	)
+	(label "CS"
+		(at 90.17 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60d83db4-caf8-4d41-b37d-64b408e7bfea")
+	)
+	(label "CS"
+		(at 46.99 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61253bed-31b6-4a66-94ca-34927e60fe65")
+	)
+	(label "MOSI"
+		(at 46.99 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f2e9b03-5be5-4e0c-87de-4b40b50d54c2")
+	)
+	(label "MOSI"
+		(at 83.82 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9beaf740-0dce-422b-9b34-73ad898585b3")
+	)
+	(label "SCK"
+		(at 83.82 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3357b5d-2cfc-485f-97f4-83aebd47ad9e")
+	)
+	(label "SCK"
+		(at 110.49 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad78c742-ce57-4698-9b51-90ca2a483885")
 	)
 	(label "SCL"
 		(at 149.86 76.2 0)
