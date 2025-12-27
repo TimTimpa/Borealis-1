@@ -333,7 +333,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MPU9250_2025-12-26-altium-import:root_0_MPU9250_"
+		(symbol "TLV493DA1B6HTSA2_2025-12-27-altium-import:root_0_TLV493DA1B6HTSA2_"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -380,23 +380,35 @@
 					(hide yes)
 				)
 			)
-			(symbol "root_0_MPU9250__1_0"
+			(symbol "root_0_TLV493DA1B6HTSA2__1_0"
 				(rectangle
-					(start -6.35 16.51)
-					(end 11.43 -16.51)
+					(start -15.24 5.08)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0)
 						(type solid)
-						(color 0 0 0 1)
+						(color 136 0 0 1)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(circle
+					(center -13.97 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 136 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at -11.43 11.43 0)
-					(length 5.08)
-					(name "VCC"
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "SCL/INT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -412,8 +424,8 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 8.89 0)
-					(length 5.08)
+					(at -17.78 0 0)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -430,9 +442,9 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 6.35 0)
-					(length 5.08)
-					(name "SCL"
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -448,45 +460,9 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 3.81 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 1.27 0)
-					(length 5.08)
-					(name "EDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -1.27 0)
-					(length 5.08)
-					(name "ECL"
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "SDA/ADDR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -502,34 +478,16 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -3.81 0)
-					(length 5.08)
-					(name "AD0"
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -6.35 0)
-					(length 5.08)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -538,34 +496,16 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -8.89 0)
-					(length 5.08)
-					(name "NCS"
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -11.43 0)
-					(length 5.08)
-					(name "FSYNC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -928,43 +868,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 116.84 71.12)
-		(uuid "4256d5ba-6dea-43d0-8f40-0f63b7b9df85")
-	)
-	(no_connect
-		(at 116.84 66.04)
-		(uuid "51b6e918-68f1-48ee-953d-7a2825922f56")
+	(junction
+		(at 69.85 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e47a7bc-9f21-428f-8c25-2494989c3a91")
 	)
 	(no_connect
 		(at 152.4 69.85)
 		(uuid "7c47fdc6-0732-408b-b721-e9113e1d8e8f")
-	)
-	(no_connect
-		(at 116.84 73.66)
-		(uuid "aa77c4f6-26d8-499c-8f4c-6ecec49dc2ee")
-	)
-	(no_connect
-		(at 116.84 78.74)
-		(uuid "afe5006f-02c9-4dd6-bdeb-f5fd27ee8ab6")
-	)
-	(no_connect
-		(at 116.84 68.58)
-		(uuid "b3d62f91-79be-4edb-a596-2ea3f1948e86")
-	)
-	(no_connect
-		(at 116.84 76.2)
-		(uuid "e5f7d583-298f-4c95-99c2-4221f3a4ed6d")
-	)
-	(wire
-		(pts
-			(xy 116.84 88.9) (xy 119.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0402b4d3-cad8-4eb5-a61a-bc34bb6db93b")
 	)
 	(wire
 		(pts
@@ -978,13 +890,33 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 119.38 86.36)
+			(xy 105.41 74.93) (xy 107.95 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25cb0a09-ca5e-40c2-94e4-ec00a7f9fc61")
+		(uuid "25185dba-f5b3-415b-b40f-b95a87f4896a")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 107.95 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2b184d-6ebd-4e70-abf9-7f7e8092bde5")
+	)
+	(wire
+		(pts
+			(xy 69.85 77.47) (xy 69.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb0a54f-48a9-485a-b55a-2b5a6a61573d")
 	)
 	(wire
 		(pts
@@ -1008,6 +940,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eec5c21-f360-4dae-ba23-e844407d5f4f")
+	)
+	(wire
+		(pts
 			(xy 149.86 57.15) (xy 154.94 57.15)
 		)
 		(stroke
@@ -1015,6 +957,26 @@
 			(type default)
 		)
 		(uuid "6d7d9fe2-46d6-4eec-9950-c22f1ec425bc")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.01) (xy 69.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9c4686-cf6c-44e9-a39f-ff9b63c97590")
+	)
+	(wire
+		(pts
+			(xy 66.04 74.93) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e04103-f7a2-4a51-9ca8-4211bab0d12a")
 	)
 	(wire
 		(pts
@@ -1038,26 +1000,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 83.82) (xy 119.38 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1729c6a-d103-4b53-97e9-b4de1d6781fe")
-	)
-	(wire
-		(pts
-			(xy 116.84 81.28) (xy 119.38 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b82a8eb5-5193-4cf9-96e5-85bee73da96c")
-	)
-	(wire
-		(pts
 			(xy 152.4 74.93) (xy 154.94 74.93)
 		)
 		(stroke
@@ -1075,16 +1017,6 @@
 			(type default)
 		)
 		(uuid "e71780a6-5773-4b55-b939-3ab74a037655")
-	)
-	(label "SCL"
-		(at 119.38 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a6a8420-3b12-4261-861f-da6eeede98b3")
 	)
 	(label "SDA"
 		(at 149.86 57.15 0)
@@ -1116,16 +1048,6 @@
 		)
 		(uuid "b367c7aa-8734-4cf5-a881-8658f6cf3b3b")
 	)
-	(label "SDA"
-		(at 119.38 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c626eb7e-f7e0-427c-a0a5-18e68df5cfe4")
-	)
 	(label "ADC"
 		(at 149.86 54.61 0)
 		(effects
@@ -1135,6 +1057,26 @@
 			(justify left bottom)
 		)
 		(uuid "d6c74856-6f0d-4293-90c1-5660b3f6557c")
+	)
+	(label "SCL"
+		(at 66.04 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd9d1440-00ef-4376-b3fa-555fbad9e079")
+	)
+	(label "SDA"
+		(at 107.95 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffb0767f-a57a-4d7f-a9a0-75d281ed5875")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -1271,6 +1213,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 107.95 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a3ceddc-932c-44b5-9c87-3e979ea79be0")
+		(property "Reference" "#PWR03"
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01010a80-04e4-4c45-9138-7e827fe9b9d8")
+		)
+		(instances
+			(project ""
+				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 107.95 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133d466a-adc1-4fdc-9842-56614950c27d")
+		(property "Reference" "#PWR04"
+			(at 104.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45b412a7-8fac-4226-8247-a13146e4dee2")
+		)
+		(instances
+			(project ""
+				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 160.02 57.15 180)
 		(unit 1)
@@ -1338,73 +1414,6 @@
 			(project "sensor-board-magnetic-field"
 				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 119.38 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "358841bd-e444-4003-86b9-b800a60079d6")
-		(property "Reference" "#PWR01"
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "072f2713-db26-4263-a3a8-150a5ed21554")
-		)
-		(instances
-			(project ""
-				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1484,35 +1493,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 86.36 90)
+		(lib_id "TLV493DA1B6HTSA2_2025-12-27-altium-import:root_0_TLV493DA1B6HTSA2_")
+		(at 87.63 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59209e00-f58d-44d4-8d33-099c258827ee")
-		(property "Reference" "#PWR03"
-			(at 125.73 86.36 0)
+		(uuid "5de665f1-fefa-4444-afd9-da192fd30716")
+		(property "Reference" "TLV493D1"
+			(at 105.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "GND"
-			(at 123.19 86.3599 90)
+		(property "Value" "~"
+			(at 87.63 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.38 86.36 0)
+		(property "Footprint" "batteryholder:TLV493D"
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 86.36 0)
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,22 +1537,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 86.36 0)
+		(property "Description" ""
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "02ba61b2-93de-45b3-8f30-62e37baa6cd4")
+		)
+		(pin "2"
+			(uuid "5aaa12bd-3673-496c-b4c9-6d8c6f0081b6")
 		)
 		(pin "1"
-			(uuid "fed47ee7-6b4f-4aa3-8c72-c95ae1fc2c17")
+			(uuid "b2a936ed-fdb6-4749-bc6e-bfe5a056194d")
+		)
+		(pin "5"
+			(uuid "5fa1d0f5-8877-40cb-ac74-a51798752246")
+		)
+		(pin "6"
+			(uuid "cc98c830-e3e7-41d1-a7be-2b66ddfc9b09")
+		)
+		(pin "4"
+			(uuid "d3108d00-cd09-47f1-8a7a-a8cef5791a4b")
 		)
 		(instances
-			(project ""
+			(project "sensor-board-magnetic-field"
 				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
-					(reference "#PWR03")
+					(reference "TLV493D1")
 					(unit 1)
 				)
 			)
@@ -1684,6 +1707,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5066ff3-4f9b-4e54-8b2c-0ee998a4bc0f")
+		(property "Reference" "#PWR01"
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e5e4d92-41ed-4400-994d-6d35a24b5ba3")
+		)
+		(instances
+			(project ""
+				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 101.6 0)
 		(unit 1)
@@ -1748,99 +1838,6 @@
 			(project "sensor-board-magnetic-field"
 				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MPU9250_2025-12-26-altium-import:root_0_MPU9250_")
-		(at 105.41 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6bdddb9-6208-4f2d-b050-b649e42d3a56")
-		(property "Reference" "MPU9250"
-			(at 93.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "~"
-			(at 105.41 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "batteryholder:MPU9250"
-			(at 105.41 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7e1ece93-15d7-402e-bf99-0e58f529cfcd")
-		)
-		(pin "3"
-			(uuid "9dc9adb8-fc03-40e4-9a5c-029c277bf2f7")
-		)
-		(pin "4"
-			(uuid "dedfa99b-5ae1-42aa-9534-a0f98719dea1")
-		)
-		(pin "5"
-			(uuid "bdf7033e-0239-4947-9c66-3e60c8a7bbaf")
-		)
-		(pin "2"
-			(uuid "271a5435-7c37-4cc8-9b08-69a123513952")
-		)
-		(pin "1"
-			(uuid "7b12fc95-68b3-4af9-a0b1-8958e4044d9a")
-		)
-		(pin "8"
-			(uuid "8a78c474-6f9a-4a33-a4a2-f978e85a145c")
-		)
-		(pin "9"
-			(uuid "ce8040d7-652c-4e13-ad4d-aa6885c3e78c")
-		)
-		(pin "7"
-			(uuid "6c8ce075-5352-47b1-be74-962c21d87f7e")
-		)
-		(pin "10"
-			(uuid "4dc8af02-5a24-4270-90d1-f290ce0c5376")
-		)
-		(instances
-			(project "sensor-board-magnetic-field"
-				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
-					(reference "MPU9250")
 					(unit 1)
 				)
 			)
