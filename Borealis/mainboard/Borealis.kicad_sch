@@ -5188,7 +5188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit DS3231 RTC Breakout:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 226.06 44.45 0)
 			(effects
 				(font
@@ -5958,7 +5958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit DS3231 RTC Breakout:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -6359,7 +6359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.712 154.94 90)
 			(effects
 				(font
@@ -6579,7 +6579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 61.722 60.96 90)
 			(effects
 				(font
@@ -6782,7 +6782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 120.142 154.94 90)
 			(effects
 				(font
@@ -7549,7 +7549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
 			(at 92.71 114.3 90)
 			(effects
 				(font
