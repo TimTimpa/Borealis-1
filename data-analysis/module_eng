@@ -22,22 +22,18 @@ class getter:
 
 class read:
     def __init__(self, path:str = 'data.csv'):
-        '''
-        :param path: Namnet på din data-fil
-        :type path: str
-        '''
-        self.alt = []
+        self.x = []
         self.y = []
         with open(path, 'r') as file:
             reader = csv.DictReader(file)
-            self.headers = reader.fieldnames[6:]
+            self.headers = reader.fieldnames[1:]
             for row in reader:
                 data = []
-                self.alt.append(float(row['tid']))
+                self.x.append(float(row['tid']))
                 for header in self.headers:
                     data.append(float(row[header]))
                 self.y.append(data)
-        self.alt = array(self.alt)
+        self.x = array(self.x)
         self.y = getter(self.headers, array(self.y).T)
 
     def zero(self, index=None):
@@ -52,17 +48,24 @@ class plotter:
         self.plots = []
         self.name = name
         if x is not None:
-            self.data.alt = x
+            self.data.x = x
     
     def __update(self, index, target, n):
         if index not in self.dict.keys():
             self.dict[index] = [None,None,None,None]
         self.dict[index][n] = target
+    
+    def __linreg(self, index):
+        y = self.data.y[index]
+        k = polyfit(self.data.x, y, 1)
+        ymean = mean(y)
+        yhat = polyval(k, self.data.x)
+        sstot = sum((y-ymean)**2)
+        ssres = sum((y - yhat)**2)
+        r2 = 1 - ssres/sstot if sstot != 0 else 1.
+        return [k[0], k[1], r2]
 
     def plot(self, index=None):
-        '''
-        :param index: Det som ska ritas. Lämna tom för allt.
-        '''
         if index is not None:
             if isinstance(index, str):
                 label = index
@@ -85,27 +88,27 @@ class plotter:
             else:
                 label = self.data.headers[index]
             
-            k = polyfit(self.data.alt, self.data.y[index], 1)
-            self.__update(index, k[0]*self.data.alt + k[1], 1)
+            k = self.__linreg(index)
+            self.__update(index, k[0]*self.data.x + k[1], 1)
             if name:
-                self.__update(index, f'Trendline for {label}:\nk = {k[0]:.4f}\nm = {k[1]:.4f}\nR^2 = ...', 3)
+                self.__update(index, f'Trendline for {label}:\nk = {k[0]:.4f}\nm = {k[1]:.4f}\nR^2 = {k[2]:.4f}', 3)
 
         else:
             for i in range(len(self.data.y)):
                 label = self.data.headers[i]
-                k = polyfit(self.data.alt, self.data.y[i], 1)
-                self.__update(i, k[0]*self.data.alt + k[1], 1)
+                k = self.__linreg(i)
+                self.__update(i, k[0]*self.data.x + k[1], 1)
                 if name:
-                    self.__update(i, f'Trendline for {label}:\nk = {k[0]:.4f}\nm = {k[1]:.4f}\nR^2 = ...', 3)
+                    self.__update(i, f'Trendline for {label}:\nk = {k[0]:.4f}\nm = {k[1]:.4f}\nR^2 = {k[2]:.4f}', 3)
 
     def show(self, *, grid:bool=True):
         fig, ax = plt.subplots(label=self.name)
         for p in self.dict.values():
             color = ax._get_lines.get_next_color()
             if p[0] is not None:
-                ax.plot(self.data.alt, p[0], label=p[2], color=color)
+                ax.plot(self.data.x, p[0], label=p[2], color=color)
             if p[1] is not None:
-                ax.plot(self.data.alt, p[1], label=p[3], color=color, linestyle=':', alpha=0.7)
+                ax.plot(self.data.x, p[1], label=p[3], color=color, linestyle=':', alpha=0.7)
 
         ax.set_xlabel('Tid')
         if grid:
@@ -139,7 +142,7 @@ class plotter:
                 label.append(p[2])
         lenq = len(q)
         w = int(sqrt(lenq))
-        h = int((lenq/w)+.499999999)
+        h = int((lenq/w)+.999999999)
 
         fig, ax = plt.subplots(h, w, label=self.name)
         if lenq == 1:
@@ -158,7 +161,7 @@ class plotter:
             factor = (q[j].max()-q[j].min())/res * len(count)
             color = ax[j]._get_lines.get_next_color()
             if normal:
-                ax[j].plot(yrange, factor/(sigma * sqrt(2*pi)) * e**(- (yrange - mu)**2 / (2*sigma**2)), color=color, label=f'Normalfördelning:\n$\sigma = {sigma:.4f}$\n$\mu = {mu:.4f}$')
+                ax[j].plot(yrange, factor/(sigma * sqrt(2*pi)) * e**(- (yrange - mu)**2 / (2*sigma**2)), color=color, label=f'Normal Distribution:\n$\sigma = {sigma:.4f}$\n$\mu = {mu:.4f}$')
                 ax[j].legend()
             color = ax[j]._get_lines.get_next_color()
             ax[j].hist(count, bins=res, color = color)
