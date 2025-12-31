@@ -21,7 +21,7 @@ class getter:
         return self.headers
 
 class read:
-    def __init__(self, path:str = 'data.csv'):
+    def __init__(self, path:str = 'data.csv', x:str='alt'):
         self.x = []
         self.y = []
         with open(path, 'r') as file:
@@ -29,7 +29,7 @@ class read:
             self.headers = reader.fieldnames[1:]
             for row in reader:
                 data = []
-                self.x.append(float(row['alt']))
+                self.x.append(float(row[x]))
                 for header in self.headers:
                     data.append(float(row[header]))
                 self.y.append(data)
@@ -48,9 +48,9 @@ class plotter:
         self.name = name
         if x is not None:
             self.data.x = x
-        mask = slice(None) if ft is None else mask = where(ft[0] <= self.data.x <= ft[1])
+        mask = slice(None) if ft is None else (ft[0] <= self.data.x) & (self.data.x <= ft[1])
         self.data.x = self.data.x[mask]
-        self.data.y = self.data.y.values()[mask]
+        self.data.y = self.data.y.values().T[mask].T
     
     def __update(self, index, target, n):
         if index not in self.dict.keys():
