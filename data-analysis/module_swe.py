@@ -29,7 +29,7 @@ class läs:
             self.headers = reader.fieldnames[1:]
             for row in reader:
                 data = []
-                self.x.append(float(row['tid']))
+                self.x.append(float(row['alt']))
                 for header in self.headers:
                     data.append(float(row[header]))
                 self.y.append(data)
@@ -43,12 +43,14 @@ class läs:
 class grafritare:
     def __init__(self, data:läs, namn:bool=None, *, x:bool=None):
         self.data = data
-        self.data.y = self.data.y.values()
         self.dict = {}
         self.plots = []
         self.name = namn
         if x is not None:
             self.data.x = x
+        mask = slice(None) if ft is None else mask = where(ft[0] <= self.data.x <= ft[1])
+        self.data.x = self.data.x[mask]
+        self.data.y = self.data.y.values()[mask]
     
     def __update(self, index, target, n):
         if index not in self.dict.keys():
