@@ -150,7 +150,6 @@ class plotter:
         if lenq == 1:
             ax = [ax]
         ax = reshape(ax, -1)
-        print(ax)
 
         for j in range(lenq):
             yrange = linspace(q[j].min(), q[j].max(), res)
