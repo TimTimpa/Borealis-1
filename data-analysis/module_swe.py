@@ -41,7 +41,7 @@ class läs:
             self.y[index] -= self.y[index][0]
 
 class grafritare:
-    def __init__(self, data:läs, namn:bool=None, *, x:bool=None):
+    def __init__(self, data:läs, ft:tuple=None, *, namn:bool=None, x:bool=None):
         self.data = data
         self.dict = {}
         self.plots = []
