@@ -135,7 +135,7 @@ class plotter:
         fig.legend()
         plt.show()
 
-    def showdist(self, normal:bool=True, *, grid:bool=True, res=100):
+    def showdist(self, normal:bool=True, title:bool=False, *, grid:bool=True, res=100):
         q = []
         label = []
         for p in self.dict.values():
@@ -168,7 +168,10 @@ class plotter:
                 ax[j].legend()
             color = ax[j]._get_lines.get_next_color()
             ax[j].hist(count, bins=res, color = color)
-            ax[j].set_title(label[j])
+            if title:
+                ax[j].set_title(label[j])
+            ax[j].set_xlabel(label[j])
+            ax[j].set_yaxis('Occurrences')
         if grid:
             for k in ax:
                 k.grid(alpha=0.3)
