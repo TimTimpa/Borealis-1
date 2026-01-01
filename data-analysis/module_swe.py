@@ -135,7 +135,7 @@ class grafritare:
         fig.legend()
         plt.show()
 
-    def visafödelning(self, normal:bool=True, tile:bool=False, *, grid:bool=True, res=100):
+    def visafödelning(self, normal:bool=True, title:bool=False, *, grid:bool=True, res=100):
         q = []
         label = []
         for p in self.dict.values():
