@@ -171,7 +171,7 @@ class grafritare:
             if title:
                 ax[j].set_title(label[j])
             ax[j].set_xlabel(label[j])
-            ax[j].set_yaxis('Förekomster')
+            ax[j].set_ylabel('Förekomster')
         if grid:
             for k in ax:
                 k.grid(alpha=0.3)
