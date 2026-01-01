@@ -41,7 +41,7 @@ class read:
             self.y[index] -= self.y[index][0]
 
 class plotter:
-    def __init__(self, data:read, name:bool=None, ft:tuple=None, *, x:bool=None):
+    def __init__(self, data:read, ft:tuple=None, *, x:bool=None, name:bool=None):
         self.data = data
         self.dict = {}
         self.plots = []
