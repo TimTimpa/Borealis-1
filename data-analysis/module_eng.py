@@ -6,7 +6,16 @@ class getter:
     def __init__(self, headers, y):
         self.headers = headers
         self.y = y
-        
+
+    def __add__(self, term):
+        return getter(self.headers, self.y + term)
+    def __sub__(self, term):
+        return getter(self.headers, self.y - term)
+    def __mul__(self, factor):
+        return getter(self.headers, self.y * factor)
+    def __truediv__(self, term):
+        return getter(self.headers, self.y / term)
+    
     def __getitem__(self, key):
         if isinstance(key, str):
             key = self.headers.index(key)
