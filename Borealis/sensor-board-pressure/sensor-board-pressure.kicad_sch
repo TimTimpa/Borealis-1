@@ -940,6 +940,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 73.66 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16cce29d-7875-4a76-8bb6-3ec37fa12dff")
+	)
 	(wire
 		(pts
 			(xy 96.52 64.77) (xy 101.6 64.77)
@@ -959,6 +965,26 @@
 			(type default)
 		)
 		(uuid "1743b584-f2be-4915-b0d8-b16ece069eab")
+	)
+	(wire
+		(pts
+			(xy 44.45 83.82) (xy 50.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199b6399-db29-4276-9a85-1c15676f0c5e")
+	)
+	(wire
+		(pts
+			(xy 77.47 97.79) (xy 77.47 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249411ed-b68a-4c1c-87db-d5e8984254db")
 	)
 	(wire
 		(pts
@@ -1019,6 +1045,16 @@
 			(type default)
 		)
 		(uuid "7197acb2-8b23-4ea5-9734-544bb9edb5a7")
+	)
+	(wire
+		(pts
+			(xy 77.47 88.9) (xy 77.47 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779d1b97-7240-4113-8127-2936a62f0fcd")
 	)
 	(wire
 		(pts
@@ -1089,6 +1125,16 @@
 			(type default)
 		)
 		(uuid "f4edd227-d311-4d96-8d78-9677eefa4cf1")
+	)
+	(wire
+		(pts
+			(xy 73.66 81.28) (xy 73.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88d25dd-b98e-4c02-b41e-12d4c2a86da5")
 	)
 	(label "ADC"
 		(at 92.71 113.03 0)
@@ -1498,6 +1544,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 44.45 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fcd7d10-c63a-4f8e-ac10-2a636e8e23dc")
+		(property "Reference" "#PWR05"
+			(at 38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33785d61-29e9-4eae-ac86-42ec32f99388")
+		)
+		(instances
+			(project ""
+				(path "/073ec1fb-7e7a-4821-a0d2-1e02de7627d5"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BMP390_2025-12-25-altium-import:root_0_BMP390_")
 		(at 62.23 83.82 0)
 		(unit 1)
@@ -1724,6 +1837,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 77.47 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c82c63c-d9ef-4f90-8b60-a73de2249089")
+		(property "Reference" "#PWR07"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c1efc9d-77e6-463e-a96d-55da7f77e47c")
+		)
+		(instances
+			(project ""
+				(path "/073ec1fb-7e7a-4821-a0d2-1e02de7627d5"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 99.06 80.01 270)
 		(unit 1)
@@ -1785,6 +1964,76 @@
 			(project "sensor-board-pressure"
 				(path "/073ec1fb-7e7a-4821-a0d2-1e02de7627d5"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99dfaac5-6991-44f6-a3e1-6b8ac270b192")
+		(property "Reference" "R2"
+			(at 80.01 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 80.01 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 79.248 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6857b7b2-3e58-4dde-94a0-e6cc6841e7f6")
+		)
+		(pin "1"
+			(uuid "748498c3-5417-447f-87cf-91219cbc80b8")
+		)
+		(instances
+			(project ""
+				(path "/073ec1fb-7e7a-4821-a0d2-1e02de7627d5"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1919,73 +2168,6 @@
 			(project ""
 				(path "/073ec1fb-7e7a-4821-a0d2-1e02de7627d5"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 77.47 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db3555ed-4406-4934-89f7-8e67f6f8d2bc")
-		(property "Reference" "#PWR05"
-			(at 73.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 81.28 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c4e8107-8970-4562-9bf1-f404a744ac55")
-		)
-		(instances
-			(project ""
-				(path "/073ec1fb-7e7a-4821-a0d2-1e02de7627d5"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
