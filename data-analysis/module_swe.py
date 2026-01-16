@@ -91,7 +91,7 @@ class grafritare:
                 self.__update(i, self.data.y[i], 0)
                 self.__update(i, self.data.headers[i], 2)
 
-    def trend(self, index=None, name=False):
+    def trend(self, index=None, namn=False):
         if index is not None:
             if isinstance(index, str):
                 label = index
