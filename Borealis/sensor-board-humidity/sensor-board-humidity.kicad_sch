@@ -5,49 +5,50 @@
 	(uuid "1e18ea01-e475-4e52-a7c5-dcf1edca7087")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "2026-01-23_05-30-51:C0603C104K5RACTU"
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "C0603C104K5RACTU"
+				(at 3.81 -3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CAPC17595_95N_KEM"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_keywords" "C0603C104K5RACTU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "CAPC17595_95N_KEM CAPC17595_95N_KEM-M CAPC17595_95N_KEM-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,46 +83,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "C0603C104K5RACTU_1_1"
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 2.54 0) (xy 3.4798 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -130,10 +98,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -142,20 +110,272 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 4.1148 0) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C0603C104K5RACTU_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "878-22-004-10-011101:878-22-004-10-011101"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "878-22-004-10-011101"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "8782200410011101"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mill-max.com/products/spring-loaded/slc-pin-header-strip/878-xx-xxx-10-011101/878-22-004-10-011101?s_term=878-22-004-10-011101&s_type=Quick/Product/Part%20Number%20Search"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "9.6"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "575-8782200410010000"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/878-22-004-10-011101?qs=t7xnP681wgWdOYPvR3%252B%2FbA%3D%3D"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Mill-Max"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "878-22-004-10-011101"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "878-22-004-10-011101_0_0"
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -171,9 +391,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -189,9 +409,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -204,6 +424,38 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "878-22-004-10-011101_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -923,24 +1175,24 @@
 		)
 	)
 	(junction
-		(at 93.98 88.9)
+		(at 74.93 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c1cf0a4-e6d9-484e-9bec-e92bbce0d369")
+	)
+	(junction
+		(at 72.39 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aae284e4-eaab-4466-836b-110cacb458fd")
 	)
-	(wire
-		(pts
-			(xy 127 88.9) (xy 129.54 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "029b6f8f-55c8-43e2-88b5-5fd084bb55e7")
+	(no_connect
+		(at 125.73 74.93)
+		(uuid "50cf88b7-5b73-46ab-b8f1-8d0d53fdd7e1")
 	)
 	(wire
 		(pts
-			(xy 93.98 88.9) (xy 93.98 91.44)
+			(xy 72.39 82.55) (xy 72.39 85.09)
 		)
 		(stroke
 			(width 0)
@@ -950,27 +1202,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 129.54 83.82)
+			(xy 118.11 55.88) (xy 125.73 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d8513d6-9495-48fd-b3ee-b372288c2d07")
+		(uuid "1eef1731-7fd8-42cb-b7d1-fa4688c02595")
 	)
 	(wire
 		(pts
-			(xy 124.46 73.66) (xy 129.54 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20f59605-4fdc-48ac-94f8-29380d65b179")
-	)
-	(wire
-		(pts
-			(xy 107.95 93.98) (xy 110.49 93.98)
+			(xy 86.36 87.63) (xy 88.9 87.63)
 		)
 		(stroke
 			(width 0)
@@ -980,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 81.28) (xy 80.01 83.82)
+			(xy 58.42 74.93) (xy 58.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +1232,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 96.52 96.52)
+			(xy 74.93 100.33) (xy 74.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f1f58b-ffcd-4a1a-81bc-5eb1ec78001e")
+	)
+	(wire
+		(pts
+			(xy 72.39 90.17) (xy 74.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1000,13 +1252,33 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 88.9) (xy 97.79 88.9)
+			(xy 74.93 90.17) (xy 74.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a33743d-4a72-4198-8838-fa61e087fd4e")
+	)
+	(wire
+		(pts
+			(xy 72.39 82.55) (xy 76.2 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "651d063d-c9c0-4d95-a1da-d4cc11f340d9")
+	)
+	(wire
+		(pts
+			(xy 123.19 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7201db87-9a4c-4f13-91c2-52f184f964b2")
 	)
 	(wire
 		(pts
@@ -1020,7 +1292,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 100.33 93.98)
+			(xy 125.73 69.85) (xy 123.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c332651-e64b-49f4-a039-9ea2d517c8c1")
+	)
+	(wire
+		(pts
+			(xy 72.39 87.63) (xy 78.74 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 96.52) (xy 66.04 96.52)
+			(xy 39.37 90.17) (xy 44.45 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 88.9) (xy 66.04 88.9)
+			(xy 39.37 82.55) (xy 44.45 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1060,27 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 129.54 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32ddd32-ff05-4bd1-88bd-f1793dd65e28")
-	)
-	(wire
-		(pts
-			(xy 124.46 71.12) (xy 129.54 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de74f709-a556-4e0c-a35b-70a2cb413587")
-	)
-	(wire
-		(pts
-			(xy 62.23 91.44) (xy 66.04 91.44)
+			(xy 40.64 85.09) (xy 44.45 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1090,26 +1352,36 @@
 	)
 	(wire
 		(pts
-			(xy 127 86.36) (xy 129.54 86.36)
+			(xy 123.19 72.39) (xy 125.73 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e71eec52-9a03-4110-8666-a71be51aa281")
+		(uuid "ee3df8ec-0393-4b84-bfe6-dbd0a37ab182")
 	)
-	(label "SDA"
-		(at 124.46 71.12 0)
+	(label "ADC"
+		(at 123.19 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "39df6f08-b77f-46bd-a18b-386721c44fd1")
+		(uuid "1447c9b6-aef5-4f80-b1e7-2d9ad61c6458")
 	)
 	(label "SCL"
-		(at 60.96 96.52 0)
+		(at 123.19 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "377cf839-b659-40fb-abfd-46f6914338b4")
+	)
+	(label "SCL"
+		(at 39.37 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1118,17 +1390,17 @@
 		)
 		(uuid "78956aef-7c45-4d02-85ea-13c30f83fcab")
 	)
-	(label "SCL"
-		(at 124.46 73.66 0)
+	(label "SDA"
+		(at 123.19 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "7f7c05e0-2d88-4cff-b6b0-a99fb181fe68")
+		(uuid "7c985532-f67c-47e7-9016-719b980714d4")
 	)
-	(label "ADC"
+	(label "ID"
 		(at 120.65 121.92 0)
 		(effects
 			(font
@@ -1138,18 +1410,8 @@
 		)
 		(uuid "a758256e-fee8-4a62-9e9d-54bfafa9989f")
 	)
-	(label "ADC"
-		(at 124.46 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5d28daf-36fe-440f-adb5-751507f1ecbf")
-	)
 	(label "SDA"
-		(at 60.96 88.9 0)
+		(at 39.37 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1158,27 +1420,27 @@
 		)
 		(uuid "c6f7f272-ea0a-4d90-b66a-e6e1669691bd")
 	)
+	(label "ID"
+		(at 118.11 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7d76885-e88e-43a8-8ba0-6c66f6e9d9f3")
+	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 127 86.36 90)
+		(lib_id "878-22-004-10-011101:878-22-004-10-011101")
+		(at 125.73 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0696218c-2b18-46cc-8143-3eaa090505fb")
-		(property "Reference" "#PWR012"
-			(at 130.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 123.19 86.3599 90)
+		(uuid "2f543c49-dc18-4be6-a201-2b5ef413dfe1")
+		(property "Reference" "J4"
+			(at 142.24 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,66 +1448,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65fe7a32-678d-4709-9867-1238488677f6")
-		)
-		(instances
-			(project "sensor-board-humidity"
-				(path "/1e18ea01-e475-4e52-a7c5-dcf1edca7087"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 127 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06d934c4-704e-4324-8d5c-ea8ee426b2db")
-		(property "Reference" "#PWR013"
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 123.19 83.8199 90)
+		(property "Value" "878-22-004-10-011101"
+			(at 124.46 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,8 +1457,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 127 83.82 0)
+		(property "Footprint" "BOREALIS:8782200410011101"
+			(at 142.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mill-max.com/products/spring-loaded/slc-pin-header-strip/878-xx-xxx-10-011101/878-22-004-10-011101?s_term=878-22-004-10-011101&s_type=Quick/Product/Part%20Number%20Search"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
+			(at 125.73 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,104 +1486,82 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 127 83.82 0)
+		(property "Description_1" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
+			(at 142.24 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 83.82 0)
+		(property "Height" "9.6"
+			(at 142.24 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f4a5049f-4d23-40a7-92ea-1dec5eb05a52")
-		)
-		(instances
-			(project "sensor-board-humidity"
-				(path "/1e18ea01-e475-4e52-a7c5-dcf1edca7087"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 134.62 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b0bb9df-7255-4d09-a42e-e1f7d5501e69")
-		(property "Reference" "J2"
-			(at 135.89 69.8499 0)
+		(property "Mouser Part Number" "575-8782200410010000"
+			(at 142.24 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin (data connection to main board)"
-			(at 135.89 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "batteryholder:1x03 2.3 pitch"
-			(at 134.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 71.12 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/878-22-004-10-011101?qs=t7xnP681wgWdOYPvR3%252B%2FbA%3D%3D"
+			(at 142.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 134.62 71.12 0)
+		(property "Manufacturer_Name" "Mill-Max"
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "93b65438-c579-49d7-9c21-ee932bce9977")
-		)
-		(pin "1"
-			(uuid "fe68afe8-5645-4e91-8c0b-53a5663bb781")
+		(property "Manufacturer_Part_Number" "878-22-004-10-011101"
+			(at 142.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "b034968b-74bf-4a27-b307-39e096139391")
+			(uuid "e23b2bd7-c4e3-437d-b762-3c8c49876110")
+		)
+		(pin "1"
+			(uuid "85491e13-f00f-49d9-b34b-a4a6b51b3c29")
+		)
+		(pin "4"
+			(uuid "66aa9c3d-5dda-47c4-b5c8-242cc99e23a9")
+		)
+		(pin "2"
+			(uuid "e6f49cb2-06bc-47e1-8963-1b6026c94ae4")
 		)
 		(instances
 			(project "sensor-board-humidity"
 				(path "/1e18ea01-e475-4e52-a7c5-dcf1edca7087"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1367,7 +1569,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 96.52 96.52 270)
+		(at 74.93 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1376,7 +1578,7 @@
 		(fields_autoplaced yes)
 		(uuid "33784767-74f6-4e28-a865-1e0fce8108bf")
 		(property "Reference" "#PWR03"
-			(at 92.71 96.52 0)
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1587,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 100.33 96.5199 90)
+			(at 78.74 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 96.52 0)
+			(at 74.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 96.52 0)
+			(at 74.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 96.52 96.52 0)
+			(at 74.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,35 +1635,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 134.62 86.36 180)
+		(lib_id "power:GND")
+		(at 125.73 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c25f71d-0cb7-4ec9-8770-925293c2e954")
-		(property "Reference" "J5"
-			(at 135.89 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin (power connection to main board)"
-			(at 135.89 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "batteryholder:1x03 2.3 pitch"
-			(at 134.62 86.36 0)
+		(uuid "6ef7700d-db51-4332-a473-11f1b1573777")
+		(property "Reference" "#PWR08"
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,8 +1653,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 86.36 0)
+		(property "Value" "GND"
+			(at 121.92 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,8 +1671,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 134.62 86.36 0)
+		(property "Datasheet" ""
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,18 +1690,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d15bb744-31c2-4bb5-9335-0a6160b2baac")
-		)
-		(pin "2"
-			(uuid "f4eaa12c-6740-4db3-8c78-6dc40012f628")
-		)
-		(pin "3"
-			(uuid "76c734d3-aaff-4dbb-9cad-1636ef8f720a")
+			(uuid "ad0957f7-0a26-48d4-9621-6156c70f84e1")
 		)
 		(instances
 			(project "sensor-board-humidity"
 				(path "/1e18ea01-e475-4e52-a7c5-dcf1edca7087"
-					(reference "J5")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1572,53 +1768,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 127 88.9 270)
+		(lib_id "2026-01-23_05-30-51:C0603C104K5RACTU")
+		(at 74.93 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "98402360-58ef-46bc-8d96-13646d1ca60a")
-		(property "Reference" "#PWR011"
-			(at 120.65 88.9 0)
+		(uuid "794ae043-07db-42ab-a365-fc5b70b39b17")
+		(property "Reference" "C5"
+			(at 78.74 95.2499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C0603C104K5RACTU"
+			(at 78.74 97.7899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BOREALIS:CAPC17595_95N_KEM"
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 123.19 88.8999 90)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 88.9 0)
+		(property "Description" ""
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,29 +1825,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d00c16e-40c3-4dfb-97a7-53c1dd816be0")
+			(uuid "be92f1e3-e524-48a0-915f-454b8402783e")
+		)
+		(pin "2"
+			(uuid "62b6e2ad-af2c-41bd-a8dc-0807702ef5ca")
 		)
 		(instances
 			(project "sensor-board-humidity"
 				(path "/1e18ea01-e475-4e52-a7c5-dcf1edca7087"
-					(reference "#PWR011")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 80.01 81.28 180)
+		(lib_id "power:+3.3V")
+		(at 125.73 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6c22152-327c-44c7-b366-c166ecb3286f")
-		(property "Reference" "#PWR04"
-			(at 80.01 74.93 0)
+		(uuid "a04f1a36-2f98-4e55-ab8e-1b3e6eff6121")
+		(property "Reference" "#PWR010"
+			(at 129.54 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,16 +1857,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 80.01 76.2 0)
+		(property "Value" "+3.3V"
+			(at 121.92 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 81.28 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1876,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 81.28 0)
+			(at 125.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 125.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b95f54b-3488-431a-9f15-b4c24c5967e8")
+		)
+		(instances
+			(project "sensor-board-humidity"
+				(path "/1e18ea01-e475-4e52-a7c5-dcf1edca7087"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aba97101-6be5-4e95-a86b-d8b61873225c")
+		(property "Reference" "#PWR07"
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1951,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 81.28 0)
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46517eec-9a8b-404b-8c4f-55e4e20afca8")
+		)
+		(instances
+			(project ""
+				(path "/1e18ea01-e475-4e52-a7c5-dcf1edca7087"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c22152-327c-44c7-b366-c166ecb3286f")
+		(property "Reference" "#PWR04"
+			(at 58.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +2039,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 88.9 90)
+		(at 76.2 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1715,7 +2048,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4d3c436-b0b7-4783-b36a-0050918297a0")
 		(property "Reference" "#PWR01"
-			(at 104.14 88.9 0)
+			(at 82.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +2057,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 88.8999 90)
+			(at 80.01 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +2066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 88.9 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +2075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 88.9 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +2084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 88.9 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +2106,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 110.49 93.98 270)
+		(at 88.9 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1782,7 +2115,7 @@
 		(fields_autoplaced yes)
 		(uuid "c646fb19-52b8-4be7-88ef-404b689efb82")
 		(property "Reference" "#PWR05"
-			(at 106.68 93.98 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +2124,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 114.3 93.9799 90)
+			(at 92.71 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +2133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 93.98 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 93.98 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +2151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 110.49 93.98 0)
+			(at 88.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +2173,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 91.44 270)
+		(at 40.64 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1849,7 +2182,7 @@
 		(fields_autoplaced yes)
 		(uuid "c91d3cd3-bf33-4be0-9d09-1c1edc2bced6")
 		(property "Reference" "#PWR06"
-			(at 55.88 91.44 0)
+			(at 34.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +2191,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 91.4399 90)
+			(at 36.83 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +2200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 91.44 0)
+			(at 40.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +2209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 91.44 0)
+			(at 40.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +2218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 91.44 0)
+			(at 40.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,8 +2239,212 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 125.73 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb578758-4b28-44bb-9f55-7b91bc7e01ed")
+		(property "Reference" "#PWR016"
+			(at 129.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 121.92 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc05ad1e-fc38-4a8d-aed2-1add6de683f9")
+		)
+		(instances
+			(project "sensor-board-humidity"
+				(path "/1e18ea01-e475-4e52-a7c5-dcf1edca7087"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "878-22-004-10-011101:878-22-004-10-011101")
+		(at 125.73 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd2ead24-6964-4e5a-a0ac-62dcc46de674")
+		(property "Reference" "J7"
+			(at 142.24 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "878-22-004-10-011101"
+			(at 122.936 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BOREALIS:8782200410011101"
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mill-max.com/products/spring-loaded/slc-pin-header-strip/878-xx-xxx-10-011101/878-22-004-10-011101?s_term=878-22-004-10-011101&s_type=Quick/Product/Part%20Number%20Search"
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
+			(at 142.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.6"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "575-8782200410010000"
+			(at 142.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/878-22-004-10-011101?qs=t7xnP681wgWdOYPvR3%252B%2FbA%3D%3D"
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Mill-Max"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "878-22-004-10-011101"
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "10346164-ddbb-4249-acf1-d17dbf34e3b9")
+		)
+		(pin "1"
+			(uuid "617f8c43-4f53-4cee-9f2c-2c84cae04892")
+		)
+		(pin "4"
+			(uuid "2578f146-d677-4c00-abea-c78fcc948d7b")
+		)
+		(pin "2"
+			(uuid "9fd7d52a-fbf6-4138-9e13-ef062c4d4b77")
+		)
+		(instances
+			(project "sensor-board-humidity"
+				(path "/1e18ea01-e475-4e52-a7c5-dcf1edca7087"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 104.14 93.98 90)
+		(at 82.55 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1916,7 +2453,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7f7dce7-720b-4e4f-a547-fde13d369e2c")
 		(property "Reference" "R2"
-			(at 104.14 87.63 90)
+			(at 82.55 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +2461,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 104.14 90.17 90)
+			(at 82.55 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +2469,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 104.14 95.758 90)
+			(at 82.55 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2478,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 93.98 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +2487,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 93.98 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2582,7 @@
 	)
 	(symbol
 		(lib_id "SHT31-DIS-F2.5KS_2025-12-25-altium-import:root_0_SHT31-DIS-F2.5KS_")
-		(at 80.01 91.44 0)
+		(at 58.42 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2053,7 +2590,7 @@
 		(dnp no)
 		(uuid "f7324b55-2ad9-43ea-86a1-ad6dbb89f1b7")
 		(property "Reference" "SHT31"
-			(at 93.98 83.82 0)
+			(at 72.39 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2599,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 83.82 0)
+			(at 58.42 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2608,7 @@
 			)
 		)
 		(property "Footprint" "batteryholder:sht31-footprint"
-			(at 80.01 91.44 0)
+			(at 58.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 91.44 0)
+			(at 58.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 91.44 0)
+			(at 58.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
