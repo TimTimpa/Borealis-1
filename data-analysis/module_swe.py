@@ -141,7 +141,6 @@ class grafritare:
         if grid:
             ax.yaxis.grid(alpha=0.3)
         fig.tight_layout()
-        fig.legend()
         plt.show()
 
     def visafödelning(self, normal:bool=True, title:bool=False, *, grid:bool=True, res=100):
