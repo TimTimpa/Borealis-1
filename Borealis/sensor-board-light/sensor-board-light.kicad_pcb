@@ -1567,6 +1567,17 @@
 		(uuid "3d1d0d8a-6fc8-4116-9904-c87ea67db55e")
 	)
 	(gr_circle
+		(center 112.35 73)
+		(end 113.5 73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "446c03c9-0e37-4240-816d-08e3f468b24e")
+	)
+	(gr_circle
 		(center 117.65 85.85)
 		(end 118.8 85.85)
 		(stroke
@@ -1609,6 +1620,17 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "d6d15830-1e8b-41df-b412-ad1bc3e62baa")
+	)
+	(gr_circle
+		(center 111.85 83)
+		(end 113 83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "e6d6171b-9cce-4eda-92fd-71435259b86a")
 	)
 	(gr_text "Borealis sensor module\nMagnetometer"
 		(at 120.5 78 90)

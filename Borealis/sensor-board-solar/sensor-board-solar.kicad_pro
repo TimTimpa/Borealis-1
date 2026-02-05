@@ -486,7 +486,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "sensor-board-solar.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
