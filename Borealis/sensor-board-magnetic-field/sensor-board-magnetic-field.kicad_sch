@@ -257,210 +257,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "878-22-004-10-011101:878-22-004-10-011101"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "878-22-004-10-011101"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "8782200410011101"
-				(at 16.51 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mill-max.com/products/spring-loaded/slc-pin-header-strip/878-xx-xxx-10-011101/878-22-004-10-011101?s_term=878-22-004-10-011101&s_type=Quick/Product/Part%20Number%20Search"
-				(at 16.51 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-				(at 16.51 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "9.6"
-				(at 16.51 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "575-8782200410010000"
-				(at 16.51 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/878-22-004-10-011101?qs=t7xnP681wgWdOYPvR3%252B%2FbA%3D%3D"
-				(at 16.51 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Mill-Max"
-				(at 16.51 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "878-22-004-10-011101"
-				(at 16.51 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "878-22-004-10-011101_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "878-22-004-10-011101_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -580,6 +376,89 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -751,6 +630,195 @@
 					(at 17.78 -2.54 180)
 					(length 2.54)
 					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "magnetic_pogo_conn.:MAGNETIC_POGO_CONN."
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.508 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAGNETIC POGO CONN."
+				(at 0.508 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BOREALIS:MAGNETIC POGO CONN."
+				(at 0.508 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAGNETIC_POGO_CONN._1_1"
+				(rectangle
+					(start -5.08 1.2954)
+					(end 7.112 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -5.08 -1.27)
+					(mid -6.35 0)
+					(end -5.08 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -1.2446)
+					(end 7.112 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 7.112 1.27)
+					(mid 8.382 0)
+					(end 7.112 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "S"
+					(at -5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.254)
+							(bold yes)
+						)
+					)
+				)
+				(text "N"
+					(at 7.112 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.254)
+							(bold yes)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -3.81 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1151,8 +1219,8 @@
 		(uuid "f504a138-4fe0-4f0e-baa1-5a8f81deac64")
 	)
 	(no_connect
-		(at 156.21 67.31)
-		(uuid "3a9524d8-5ee2-49e0-a799-955c0bcb2ae3")
+		(at 154.94 66.04)
+		(uuid "1f9141d2-4f4f-415c-a4b0-661e18838078")
 	)
 	(wire
 		(pts
@@ -1196,16 +1264,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 64.77) (xy 156.21 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3728d7e2-3164-45e9-8f61-b93cf5804431")
-	)
-	(wire
-		(pts
 			(xy 67.31 67.31) (xy 67.31 74.93)
 		)
 		(stroke
@@ -1213,16 +1271,6 @@
 			(type default)
 		)
 		(uuid "40cae4ac-897c-4939-bfd0-395b62fe61b1")
-	)
-	(wire
-		(pts
-			(xy 148.59 46.99) (xy 156.21 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582e1eca-1ada-4232-b13a-39d679e59ee8")
 	)
 	(wire
 		(pts
@@ -1276,6 +1324,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 58.42) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b74d01d-f867-40a8-8c5b-9da53766ec6c")
+	)
+	(wire
+		(pts
 			(xy 146.05 95.25) (xy 146.05 97.79)
 		)
 		(stroke
@@ -1286,16 +1344,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 62.23) (xy 153.67 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "901939d0-1768-4690-9e59-1a8d2b6f4972")
-	)
-	(wire
-		(pts
 			(xy 116.84 59.69) (xy 92.71 59.69)
 		)
 		(stroke
@@ -1303,6 +1351,16 @@
 			(type default)
 		)
 		(uuid "9792d2b6-9e45-4e72-8f82-14ad8fc6a5a0")
+	)
+	(wire
+		(pts
+			(xy 170.18 66.04) (xy 180.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7c3945-38dd-4c1c-8043-9d730b68978b")
 	)
 	(wire
 		(pts
@@ -1333,6 +1391,16 @@
 			(type default)
 		)
 		(uuid "b8661b45-3854-4aa6-aaae-323048437a61")
+	)
+	(wire
+		(pts
+			(xy 161.29 63.5) (xy 154.94 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d82d53-19a8-4aa4-ab53-825699ea9645")
 	)
 	(wire
 		(pts
@@ -1386,43 +1454,43 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 59.69) (xy 156.21 59.69)
+			(xy 161.29 60.96) (xy 154.94 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f95e77dd-dc2e-4994-a93c-98840001c09f")
+		(uuid "fdb7858d-5711-48fc-b3b1-fa8f744a800d")
 	)
-	(label "SDA"
-		(at 153.67 62.23 180)
+	(label "ADC"
+		(at 161.29 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3eb7cd99-48fc-4a30-a0c9-3309cb34e3a8")
+		(uuid "136bd790-2c31-4d50-a722-ce1ec3227929")
 	)
 	(label "ID"
-		(at 148.59 46.99 180)
+		(at 170.18 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4b0c26fb-4a8f-4a9f-a5a4-ce279035260f")
+		(uuid "713c6ed2-0d90-448f-abad-ed0b4d92ec00")
 	)
-	(label "SCL"
-		(at 153.67 59.69 180)
+	(label "SDA"
+		(at 161.29 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "77dadc76-ff8d-42fc-b96f-b9818238a344")
+		(uuid "8f145cca-5dba-4348-9c01-e73dcb96b050")
 	)
 	(label "ID"
 		(at 146.05 107.95 0)
@@ -1434,15 +1502,15 @@
 		)
 		(uuid "a72f0930-95f5-47bc-b1d2-bf3a33e8b998")
 	)
-	(label "ADC"
-		(at 153.67 64.77 180)
+	(label "SCL"
+		(at 161.29 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d24211f2-0c5c-4acc-b8bc-f3433b39e1a2")
+		(uuid "bd446cf4-4715-4772-9392-773170485a15")
 	)
 	(label "SCL"
 		(at 62.23 74.93 0)
@@ -1599,54 +1667,16 @@
 		)
 	)
 	(symbol
-		(lib_id "878-22-004-10-011101:878-22-004-10-011101")
-		(at 156.21 39.37 0)
+		(lib_id "power:+3.3V")
+		(at 180.34 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2f543c49-dc18-4be6-a201-2b5ef413dfe1")
-		(property "Reference" "J4"
-			(at 172.72 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "878-22-004-10-011101"
-			(at 154.94 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BOREALIS:8782200410011101"
-			(at 172.72 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mill-max.com/products/spring-loaded/slc-pin-header-strip/878-xx-xxx-10-011101/878-22-004-10-011101?s_term=878-22-004-10-011101&s_type=Quick/Product/Part%20Number%20Search"
-			(at 172.72 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-			(at 156.21 39.37 0)
+		(uuid "1c6e49cb-8515-4067-84f3-15614159f139")
+		(property "Reference" "#PWR0101"
+			(at 184.15 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,82 +1684,113 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-			(at 172.72 41.91 0)
+		(property "Value" "+3.3V"
+			(at 176.53 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Height" "9.6"
-			(at 172.72 44.45 0)
+		(property "Footprint" ""
+			(at 180.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "575-8782200410010000"
-			(at 172.72 46.99 0)
+		(property "Datasheet" ""
+			(at 180.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/878-22-004-10-011101?qs=t7xnP681wgWdOYPvR3%252B%2FbA%3D%3D"
-			(at 172.72 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 180.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Name" "Mill-Max"
-			(at 172.72 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "878-22-004-10-011101"
-			(at 172.72 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e23b2bd7-c4e3-437d-b762-3c8c49876110")
 		)
 		(pin "1"
-			(uuid "85491e13-f00f-49d9-b34b-a4a6b51b3c29")
-		)
-		(pin "4"
-			(uuid "66aa9c3d-5dda-47c4-b5c8-242cc99e23a9")
-		)
-		(pin "2"
-			(uuid "e6f49cb2-06bc-47e1-8963-1b6026c94ae4")
+			(uuid "5adfac59-4097-4ea2-8654-dce626b74df8")
 		)
 		(instances
 			(project "sensor-board-magnetic-field"
 				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
-					(reference "J4")
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 110.49 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b22fca2-2317-499a-89d7-fde2ffa822db")
+		(property "Reference" "H1"
+			(at 113.03 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 113.03 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sensor-board-magnetic-field"
+				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -1883,6 +1944,82 @@
 		)
 	)
 	(symbol
+		(lib_id "magnetic_pogo_conn.:MAGNETIC_POGO_CONN.")
+		(at 184.15 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78e81275-df60-4179-8732-e0b513b0e8fc")
+		(property "Reference" "U3"
+			(at 186.69 60.7059 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAGNETIC POGO CONN."
+			(at 186.69 63.2459 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "batteryholder:MAGNETIC POGO CONN."
+			(at 191.262 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1904f67-301a-4728-a322-57f31a6c677c")
+		)
+		(pin "3"
+			(uuid "37fe9e5e-c3a3-4153-990a-872fb28b2c19")
+		)
+		(pin "1"
+			(uuid "2c0bda69-3563-4434-99e5-d3e59e83d768")
+		)
+		(pin "4"
+			(uuid "a6ef18a1-9238-4fee-9af0-fb519af3fb02")
+		)
+		(instances
+			(project "sensor-board-magnetic-field"
+				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2026-01-23_05-30-51:C0603C104K5RACTU")
 		(at 86.36 92.71 0)
 		(unit 1)
@@ -1908,7 +2045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BOREALIS:CAPC17595_95N_KEM"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.36 92.71 0)
 			(effects
 				(font
@@ -1947,73 +2084,6 @@
 			(project "sensor-board-magnetic-field"
 				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7dc0512e-357a-4d78-bf50-6aa9487465aa")
-		(property "Reference" "#PWR05"
-			(at 149.86 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a255b115-1431-4c7d-91e7-500f2b5f249f")
-		)
-		(instances
-			(project "sensor-board-magnetic-field"
-				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2090,72 +2160,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 156.21 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a04f1a36-2f98-4e55-ab8e-1b3e6eff6121")
-		(property "Reference" "#PWR010"
-			(at 160.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 152.4 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b95f54b-3488-431a-9f15-b4c24c5967e8")
-		)
-		(instances
-			(project "sensor-board-magnetic-field"
-				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 66.04 80.01 270)
 		(unit 1)
@@ -2217,73 +2221,6 @@
 			(project ""
 				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 156.21 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb578758-4b28-44bb-9f55-7b91bc7e01ed")
-		(property "Reference" "#PWR016"
-			(at 160.02 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 152.4 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 156.21 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc05ad1e-fc38-4a8d-aed2-1add6de683f9")
-		)
-		(instances
-			(project "sensor-board-magnetic-field"
-				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2360,54 +2297,17 @@
 		)
 	)
 	(symbol
-		(lib_id "878-22-004-10-011101:878-22-004-10-011101")
-		(at 156.21 59.69 0)
+		(lib_id "power:GND")
+		(at 180.34 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dd2ead24-6964-4e5a-a0ac-62dcc46de674")
-		(property "Reference" "J7"
-			(at 172.72 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "878-22-004-10-011101"
-			(at 153.416 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BOREALIS:8782200410011101"
-			(at 172.72 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mill-max.com/products/spring-loaded/slc-pin-header-strip/878-xx-xxx-10-011101/878-22-004-10-011101?s_term=878-22-004-10-011101&s_type=Quick/Product/Part%20Number%20Search"
-			(at 172.72 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-			(at 156.21 59.69 0)
+		(fields_autoplaced yes)
+		(uuid "eb962d39-6123-4dba-af42-b53eb95e5d7d")
+		(property "Reference" "#PWR05"
+			(at 173.99 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,82 +2315,123 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-			(at 172.72 62.23 0)
+		(property "Value" "GND"
+			(at 176.53 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Height" "9.6"
-			(at 172.72 64.77 0)
+		(property "Footprint" ""
+			(at 180.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "575-8782200410010000"
-			(at 172.72 67.31 0)
+		(property "Datasheet" ""
+			(at 180.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/878-22-004-10-011101?qs=t7xnP681wgWdOYPvR3%252B%2FbA%3D%3D"
-			(at 172.72 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Name" "Mill-Max"
-			(at 172.72 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "878-22-004-10-011101"
-			(at 172.72 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "10346164-ddbb-4249-acf1-d17dbf34e3b9")
 		)
 		(pin "1"
-			(uuid "617f8c43-4f53-4cee-9f2c-2c84cae04892")
-		)
-		(pin "4"
-			(uuid "2578f146-d677-4c00-abea-c78fcc948d7b")
-		)
-		(pin "2"
-			(uuid "9fd7d52a-fbf6-4138-9e13-ef062c4d4b77")
+			(uuid "f12161d0-bc47-4c98-bdac-6b39485a7610")
 		)
 		(instances
 			(project "sensor-board-magnetic-field"
 				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
-					(reference "J7")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "magnetic_pogo_conn.:MAGNETIC_POGO_CONN.")
+		(at 151.13 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee79f6b0-c6ee-4f08-9e77-f35e66898feb")
+		(property "Reference" "U2"
+			(at 151.1173 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAGNETIC POGO CONN."
+			(at 151.1173 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "batteryholder:MAGNETIC POGO CONN."
+			(at 144.018 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6781a32a-4a76-433c-8dd2-e9508cf70a56")
+		)
+		(pin "3"
+			(uuid "d1b516f0-cc60-4476-9cc3-2eee50d1fc66")
+		)
+		(pin "1"
+			(uuid "633bffb7-c1c4-4bea-b2c6-3e0bbd81f566")
+		)
+		(pin "4"
+			(uuid "b465f22a-a17b-4b20-9adc-9220d42fd5a2")
+		)
+		(instances
+			(project "sensor-board-magnetic-field"
+				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2561,6 +2502,73 @@
 			(project "sensor-board-magnetic-field"
 				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 180.34 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5fe7d6e-cdc6-469e-9013-f9e93f4261ca")
+		(property "Reference" "#PWR07"
+			(at 184.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 180.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e74d705-c947-4b72-8075-d46d6b68c446")
+		)
+		(instances
+			(project "sensor-board-magnetic-field"
+				(path "/affc8e29-4416-48d9-8102-f99afceccec9"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Users\\Gitan\\Downloads\\Borealis-1\\Borealis\\sensor-board-solar\\sensor-board-solar.kicad_sch")
-    (date "2026-02-04T23:31:13+0100")
+    (date "2026-02-07T15:19:33+0100")
     (tool "Eeschema 9.0.6")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -20,6 +20,23 @@
         (comment (number "8") (value ""))
         (comment (number "9") (value "")))))
   (components
+    (comp (ref "H1")
+      (value "MountingHole")
+      (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad")
+      (datasheet "~")
+      (description "Mounting Hole without connection")
+      (fields
+        (field (name "Footprint") "MountingHole:MountingHole_2.7mm_M2.5_Pad")
+        (field (name "Datasheet") "~")
+        (field (name "Description") "Mounting Hole without connection"))
+      (libsource (lib "Mechanical") (part "MountingHole") (description "Mounting Hole without connection"))
+      (property (name "Sheetname") (value "Root"))
+      (property (name "Sheetfile") (value "sensor-board-solar.kicad_sch"))
+      (property (name "exclude_from_bom"))
+      (property (name "ki_keywords") (value "mounting hole"))
+      (property (name "ki_fp_filters") (value "MountingHole*"))
+      (sheetpath (names "/") (tstamps "/"))
+      (tstamps "4b22fca2-2317-499a-89d7-fde2ffa822db"))
     (comp (ref "J1")
       (value "Conn_01x02_Pin (Solar panel connection)")
       (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
@@ -137,6 +154,17 @@
       (pins
         (pin (num "1") (name "") (type "passive"))
         (pin (num "2") (name "") (type "passive"))))
+    (libpart (lib "Mechanical") (part "MountingHole")
+      (description "Mounting Hole without connection")
+      (docs "~")
+      (footprints
+        (fp "MountingHole*"))
+      (fields
+        (field (name "Reference") "H")
+        (field (name "Value") "MountingHole")
+        (field (name "Footprint"))
+        (field (name "Datasheet") "~")
+        (field (name "Description") "Mounting Hole without connection")))
     (libpart (lib "magnetic_pogo_conn.") (part "MAGNETIC_POGO_CONN.")
       (fields
         (field (name "Reference") "U")
@@ -154,8 +182,10 @@
       (uri "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\/Connector.kicad_sym"))
     (library (logical "Device")
       (uri "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\/Device.kicad_sym"))
+    (library (logical "Mechanical")
+      (uri "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\/Mechanical.kicad_sym"))
     (library (logical "magnetic_pogo_conn.")
-      (uri "C:\\Users\\Gitan\\Downloads\\magnetic_pogo_conn..kicad_sym")))
+      (uri "C:/Users/Gitan/Downloads/magnetic_pogo_conn..kicad_sym")))
   (nets
     (net (code "1") (name "+3.3V") (class "Default")
       (node (ref "R1") (pin "1") (pintype "passive"))

@@ -257,210 +257,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "878-22-004-10-011101:878-22-004-10-011101"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "878-22-004-10-011101"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "8782200410011101"
-				(at 16.51 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mill-max.com/products/spring-loaded/slc-pin-header-strip/878-xx-xxx-10-011101/878-22-004-10-011101?s_term=878-22-004-10-011101&s_type=Quick/Product/Part%20Number%20Search"
-				(at 16.51 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-				(at 16.51 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "9.6"
-				(at 16.51 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "575-8782200410010000"
-				(at 16.51 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/878-22-004-10-011101?qs=t7xnP681wgWdOYPvR3%252B%2FbA%3D%3D"
-				(at 16.51 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Mill-Max"
-				(at 16.51 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "878-22-004-10-011101"
-				(at 16.51 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "878-22-004-10-011101_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "878-22-004-10-011101_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1013,6 +809,278 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "magnetic_pogo_conn.:MAGNETIC_POGO_CONN."
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.508 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAGNETIC POGO CONN."
+				(at 0.508 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BOREALIS:MAGNETIC POGO CONN."
+				(at 0.508 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAGNETIC_POGO_CONN._1_1"
+				(rectangle
+					(start -5.08 1.2954)
+					(end 7.112 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -5.08 -1.27)
+					(mid -6.35 0)
+					(end -5.08 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -1.2446)
+					(end 7.112 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 7.112 1.27)
+					(mid 8.382 0)
+					(end 7.112 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "S"
+					(at -5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.254)
+							(bold yes)
+						)
+					)
+				)
+				(text "N"
+					(at 7.112 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.254)
+							(bold yes)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1388,38 +1456,48 @@
 		(uuid "ad48dcf6-4fea-4820-97c1-35a8c2401784")
 	)
 	(junction
-		(at 97.79 100.33)
+		(at 30.48 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0805b48d-4c7f-4497-aac2-5ae461c480cd")
+		(uuid "188edf2d-afc6-47df-9cff-08f94be3bed1")
 	)
 	(junction
-		(at 58.42 68.58)
+		(at 144.78 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46e95523-65fa-41d5-a76f-6d84376f0d21")
+		(uuid "4aa3f506-e6c4-46f5-b605-66a6cb05c368")
 	)
 	(junction
-		(at 123.19 100.33)
+		(at 123.19 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "589dcf55-abf0-4e8e-9838-23fb9c08b138")
+		(uuid "58c8c0ff-0fea-418e-9de7-e2755cd84490")
 	)
 	(junction
-		(at 66.04 46.99)
+		(at 138.43 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b202c828-ebea-49b0-806c-e7cd682c882a")
+		(uuid "bf21e8a2-f1ea-423b-89d2-6fb35aaecce6")
 	)
 	(junction
-		(at 73.66 73.66)
+		(at 30.48 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee164a47-2336-4e87-af43-48495a6a3c4f")
+		(uuid "dabfca9a-76a0-4e63-a24d-48d63f0f8585")
+	)
+	(junction
+		(at 123.19 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef83bfd1-581c-4d94-98a5-1d6e44370fb8")
 	)
 	(no_connect
-		(at 158.75 81.28)
-		(uuid "c594c35e-5aa9-4702-997c-5409d39660ae")
+		(at 160.02 59.69)
+		(uuid "3f815c04-b985-447c-9946-2c64602b597d")
+	)
+	(no_connect
+		(at 39.37 71.12)
+		(uuid "8b81662e-be65-45a9-b92f-1214bb5687c4")
 	)
 	(wire
 		(pts
@@ -1433,13 +1511,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 96.52) (xy 97.79 100.33)
+			(xy 97.79 96.52) (xy 97.79 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "093828ed-2255-43c2-bb75-d515dde109d0")
+	)
+	(wire
+		(pts
+			(xy 138.43 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbec8f9-a98f-47a9-9f66-0ba1a4fbe090")
 	)
 	(wire
 		(pts
@@ -1453,37 +1541,27 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 100.33) (xy 97.79 107.95)
+			(xy 130.81 101.6) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22f3753f-b71b-4d3e-81b7-4eb1f58cf55b")
+		(uuid "44157bcc-5bc8-4e12-9325-e38e44cf1540")
 	)
 	(wire
 		(pts
-			(xy 151.13 60.96) (xy 158.75 60.96)
+			(xy 33.02 66.04) (xy 33.02 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b05b521-aba4-45fe-80ca-d1d41673b9c1")
+		(uuid "5d119872-dbe8-418e-b4ac-0ddae24647e4")
 	)
 	(wire
 		(pts
-			(xy 123.19 97.79) (xy 123.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b031e35-6fb2-46d5-b01f-5b54036b6829")
-	)
-	(wire
-		(pts
-			(xy 123.19 100.33) (xy 123.19 110.49)
+			(xy 123.19 92.71) (xy 123.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1493,17 +1571,47 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 73.66 73.66)
+			(xy 166.37 54.61) (xy 160.02 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7baeb40c-94d6-42ca-ba5f-173205566964")
+		(uuid "785b75e7-1a73-46a3-9d55-773acfc10ad9")
 	)
 	(wire
 		(pts
-			(xy 58.42 68.58) (xy 82.55 68.58)
+			(xy 128.27 107.95) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f6f84a-8184-4162-bd74-96c52364d41d")
+	)
+	(wire
+		(pts
+			(xy 33.02 68.58) (xy 39.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ace8e66-1aa4-437d-b2ab-31a71c58498c")
+	)
+	(wire
+		(pts
+			(xy 30.48 73.66) (xy 39.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4b19ef-98ac-4593-9606-f853d1193a47")
+	)
+	(wire
+		(pts
+			(xy 57.15 68.58) (xy 82.55 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1513,33 +1621,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 58.42 68.58)
+			(xy 125.73 104.14) (xy 125.73 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84d08293-24c0-4ee7-915d-451761f2f52c")
-	)
-	(wire
-		(pts
-			(xy 156.21 78.74) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b43aa4-6a09-4a6f-a8b9-6c4bfdfed4f6")
-	)
-	(wire
-		(pts
-			(xy 58.42 46.99) (xy 66.04 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c3f97e-064a-4d25-905f-168e753b0bb4")
+		(uuid "87d849e8-c4e8-4845-a8c0-947848f27a83")
 	)
 	(wire
 		(pts
@@ -1553,33 +1641,53 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 58.42 68.58)
+			(xy 166.37 52.07) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98405917-8749-4b4b-b6ef-654644a4419e")
+		(uuid "8882c528-f203-4b79-a1a8-8dd1a12de8e0")
 	)
 	(wire
 		(pts
-			(xy 156.21 73.66) (xy 158.75 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c3a92a6-21b9-43be-a8af-90aefaecce01")
-	)
-	(wire
-		(pts
-			(xy 73.66 73.66) (xy 82.55 73.66)
+			(xy 57.15 73.66) (xy 82.55 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9dccbe11-2a02-4177-b950-2d68afd91d51")
+	)
+	(wire
+		(pts
+			(xy 166.37 57.15) (xy 160.02 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10d5356-aa4a-439b-943f-1378d44f26d8")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 138.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d368d5-2b79-4f2a-9bc9-1b2404499e0d")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2262e11-564a-4233-b097-eb3932e292e4")
 	)
 	(wire
 		(pts
@@ -1593,6 +1701,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94aa3e4-6fc5-452a-80f3-9369732201ac")
+	)
+	(wire
+		(pts
 			(xy 36.83 34.29) (xy 36.83 40.64)
 		)
 		(stroke
@@ -1603,7 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 73.66) (xy 39.37 73.66)
+			(xy 25.4 73.66) (xy 30.48 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 104.14) (xy 125.73 110.49)
+			(xy 138.43 93.98) (xy 138.43 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 106.68) (xy 128.27 110.49)
+			(xy 144.78 93.98) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1633,23 +1751,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 73.66 46.99)
+			(xy 175.26 59.69) (xy 185.42 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be5634bb-b3fe-46f8-92c5-647a73fb5d6e")
-	)
-	(wire
-		(pts
-			(xy 158.75 76.2) (xy 156.21 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf9e65a3-b189-45ee-9339-33873b653202")
+		(uuid "b569c418-7af1-40dc-88b3-11a97e638455")
 	)
 	(wire
 		(pts
@@ -1663,7 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 68.58) (xy 39.37 68.58)
+			(xy 25.4 66.04) (xy 30.48 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1673,23 +1781,33 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 46.99) (xy 66.04 46.99)
+			(xy 144.78 101.6) (xy 144.78 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd73b947-8127-47d0-b89f-c1e0848754bd")
+		(uuid "d32d6e74-de64-4d3a-94f9-233f69583bce")
 	)
 	(wire
 		(pts
-			(xy 66.04 46.99) (xy 66.04 53.34)
+			(xy 123.19 101.6) (xy 123.19 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfbd1057-a781-4f9c-a2ce-5f814e55fc7a")
+		(uuid "e12b7ec1-ed57-4299-8446-34c10efbb891")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e916a7-958e-42ec-bbca-4fe398ab0736")
 	)
 	(wire
 		(pts
@@ -1713,26 +1831,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 100.33) (xy 105.41 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee10554c-d4c4-4f5b-8dc8-22ea43ec9f36")
-	)
-	(wire
-		(pts
-			(xy 113.03 100.33) (xy 123.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd99a92-80c6-4e45-9c24-13bd728af444")
-	)
-	(wire
-		(pts
 			(xy 149.86 106.68) (xy 149.86 109.22)
 		)
 		(stroke
@@ -1743,13 +1841,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 73.66) (xy 73.66 73.66)
+			(xy 30.48 66.04) (xy 33.02 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f680fb09-dc49-41ff-8528-34898beb6f48")
+		(uuid "f8d031ee-a95e-487d-8d32-5a0ef2968dc8")
 	)
 	(wire
 		(pts
@@ -1763,17 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 53.34) (xy 58.42 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc76997e-52fb-4328-bdb2-c46d0ad5c989")
-	)
-	(wire
-		(pts
-			(xy 66.04 40.64) (xy 66.04 46.99)
+			(xy 66.04 40.64) (xy 66.04 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1802,7 +1890,7 @@
 		(uuid "1382ebe3-f064-4a6a-93e6-234adb76c061")
 	)
 	(label "3.3v"
-		(at 31.75 68.58 0)
+		(at 25.4 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1810,16 +1898,6 @@
 			(justify left bottom)
 		)
 		(uuid "15ea39c7-bea2-4296-b0fc-b9ae6575469a")
-	)
-	(label "SDA"
-		(at 156.21 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "285b12fa-0428-4ff8-a31a-4a055ea42a00")
 	)
 	(label "SCL1"
 		(at 82.55 73.66 0)
@@ -1831,8 +1909,28 @@
 		)
 		(uuid "2af490c3-53be-4148-8e6d-327f01d8389f")
 	)
+	(label "ID"
+		(at 175.26 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e18ff0f-f746-4349-9465-54248d210e65")
+	)
 	(label "SCL"
-		(at 128.27 106.68 0)
+		(at 166.37 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39d61eb7-353d-4bee-8813-0e2e61799ad2")
+	)
+	(label "SCL"
+		(at 144.78 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1842,7 +1940,7 @@
 		(uuid "3f3e226c-ceb5-4931-9a74-6546e9cb4bad")
 	)
 	(label "SDA"
-		(at 125.73 104.14 0)
+		(at 138.43 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1850,6 +1948,16 @@
 			(justify left bottom)
 		)
 		(uuid "48b1dd09-697b-43fc-acdf-fc420148301a")
+	)
+	(label "SDA"
+		(at 166.37 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57a9b276-55f0-431d-822d-4d95b881a2b1")
 	)
 	(label "GND"
 		(at 34.29 36.83 90)
@@ -1871,16 +1979,6 @@
 		)
 		(uuid "86c8e926-48ea-4bff-b7f8-c3a96b8fb73c")
 	)
-	(label "ADC"
-		(at 156.21 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8bc9c01e-af39-458b-91cb-630d2ac14427")
-	)
 	(label "SDA1"
 		(at 39.37 34.29 0)
 		(effects
@@ -1891,15 +1989,15 @@
 		)
 		(uuid "8c5777da-76e8-4df5-beec-03f2010afaba")
 	)
-	(label "SCL"
-		(at 156.21 73.66 180)
+	(label "ADC"
+		(at 166.37 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "8feebbd1-b180-4ba5-801e-1352e7963de0")
+		(uuid "a0fd3d30-4e95-4623-841e-ab6c8588dee2")
 	)
 	(label "SDA1"
 		(at 82.55 68.58 0)
@@ -1910,16 +2008,6 @@
 			(justify left bottom)
 		)
 		(uuid "a593a5c6-f4b2-4578-afa3-20008063257b")
-	)
-	(label "ID"
-		(at 151.13 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abe09247-aa0f-46b0-8e50-e0439ebd4128")
 	)
 	(label "3.3v"
 		(at 66.04 40.64 0)
@@ -1932,7 +2020,7 @@
 		(uuid "d420e7d0-49a2-4fef-8b08-740a3d207e5c")
 	)
 	(label "GND"
-		(at 31.75 73.66 0)
+		(at 25.4 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1943,16 +2031,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 123.19 97.79 0)
+		(at 185.42 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "200e9d6f-fbc5-4834-b981-5dfd8bed12eb")
-		(property "Reference" "#PWR05"
-			(at 123.19 101.6 0)
+		(uuid "1c6e49cb-8515-4067-84f3-15614159f139")
+		(property "Reference" "#PWR0101"
+			(at 189.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,15 +2048,16 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 123.19 92.71 0)
+			(at 181.61 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 97.79 0)
+			(at 185.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +2066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 97.79 0)
+			(at 185.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +2075,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 97.79 0)
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5adfac59-4097-4ea2-8654-dce626b74df8")
+		)
+		(instances
+			(project "sensor-board-light"
+				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 123.19 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "200e9d6f-fbc5-4834-b981-5dfd8bed12eb")
+		(property "Reference" "#PWR05"
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 123.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,53 +2162,55 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 158.75 53.34 270)
+		(lib_id "2026-01-23_05-30-51:C0603C104K5RACTU")
+		(at 30.48 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "260511c1-006d-48b0-8fdc-af7dbf4ff068")
-		(property "Reference" "#PWR01"
-			(at 152.4 53.34 0)
+		(uuid "223025d5-54d8-41aa-a0bf-13bf6be555a6")
+		(property "Reference" "C1"
+			(at 34.29 68.5799 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 53.34 0)
+		(property "Value" "100nF"
+			(at 34.29 71.1199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 30.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 158.75 53.34 0)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 30.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 53.34 0)
+		(property "Description" ""
+			(at 30.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,12 +2219,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5422882-fe8e-4272-8ce2-70c9eb040393")
+			(uuid "0b9b7fc1-8ea9-45d2-8857-08a7b590a5ea")
+		)
+		(pin "2"
+			(uuid "5c14365b-f809-4bfa-8d22-61862079aa43")
 		)
 		(instances
 			(project "sensor-board-light"
 				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
-					(reference "#PWR01")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 80.01 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aa1495c-6fd5-440f-b6eb-1449e748aef3")
+		(property "Reference" "H3"
+			(at 82.55 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 82.55 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sensor-board-light"
+				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2141,54 +2364,33 @@
 		)
 	)
 	(symbol
-		(lib_id "878-22-004-10-011101:878-22-004-10-011101")
-		(at 158.75 53.34 0)
+		(lib_id "Device:R")
+		(at 127 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2f543c49-dc18-4be6-a201-2b5ef413dfe1")
-		(property "Reference" "J4"
-			(at 175.26 55.8799 0)
+		(fields_autoplaced yes)
+		(uuid "3d57fcef-7cb3-4ac8-abc0-186ee975087d")
+		(property "Reference" "R6"
+			(at 127 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "878-22-004-10-011101"
-			(at 157.48 48.514 0)
+		(property "Value" "10k"
+			(at 127 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "BOREALIS:8782200410011101"
-			(at 175.26 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mill-max.com/products/spring-loaded/slc-pin-header-strip/878-xx-xxx-10-011101/878-22-004-10-011101?s_term=878-22-004-10-011101&s_type=Quick/Product/Part%20Number%20Search"
-			(at 175.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-			(at 158.75 53.34 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 127 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,82 +2398,98 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-			(at 175.26 55.88 0)
+		(property "Datasheet" "~"
+			(at 127 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Height" "9.6"
-			(at 175.26 58.42 0)
+		(property "Description" "Resistor"
+			(at 127 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
-		)
-		(property "Mouser Part Number" "575-8782200410010000"
-			(at 175.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/878-22-004-10-011101?qs=t7xnP681wgWdOYPvR3%252B%2FbA%3D%3D"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Mill-Max"
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "878-22-004-10-011101"
-			(at 175.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e23b2bd7-c4e3-437d-b762-3c8c49876110")
-		)
-		(pin "1"
-			(uuid "85491e13-f00f-49d9-b34b-a4a6b51b3c29")
-		)
-		(pin "4"
-			(uuid "66aa9c3d-5dda-47c4-b5c8-242cc99e23a9")
 		)
 		(pin "2"
-			(uuid "e6f49cb2-06bc-47e1-8963-1b6026c94ae4")
+			(uuid "ee09e603-d491-4c61-9655-133af439aa9e")
+		)
+		(pin "1"
+			(uuid "aa16283f-0e14-40a9-8dad-cc8a4abeec1e")
 		)
 		(instances
 			(project "sensor-board-light"
 				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
-					(reference "J4")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 78.74 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b22fca2-2317-499a-89d7-fde2ffa822db")
+		(property "Reference" "H1"
+			(at 81.28 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 81.28 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sensor-board-light"
+				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2352,6 +2570,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 134.62 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fe52b8f-e1ac-4260-96ba-65fcbf183c1d")
+		(property "Reference" "R5"
+			(at 133.3499 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 135.8899 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 134.62 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26f47beb-ca3a-4107-bce9-8296b8bd87a3")
+		)
+		(pin "1"
+			(uuid "1b830e8b-7365-4319-84cc-6060bb3f276e")
+		)
+		(instances
+			(project "sensor-board-light"
+				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 149.86 106.68 0)
 		(unit 1)
@@ -2418,87 +2706,17 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-01-23_05-30-51:C0603C104K5RACTU")
-		(at 105.41 100.33 0)
+		(lib_id "magnetic_pogo_conn.:MAGNETIC_POGO_CONN.")
+		(at 189.23 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "794ae043-07db-42ab-a365-fc5b70b39b17")
-		(property "Reference" "C5"
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 109.22 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "BOREALIS:CAPC17595_95N_KEM"
-			(at 105.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 105.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be92f1e3-e524-48a0-915f-454b8402783e")
-		)
-		(pin "2"
-			(uuid "62b6e2ad-af2c-41bd-a8dc-0807702ef5ca")
-		)
-		(instances
-			(project "sensor-board-light"
-				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e4e094f-6942-4352-ae28-d7df6a07d048")
-		(property "Reference" "R2"
-			(at 60.96 55.8799 0)
+		(uuid "78e81275-df60-4179-8732-e0b513b0e8fc")
+		(property "Reference" "U3"
+			(at 191.77 54.3559 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,8 +2724,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 60.96 58.4199 0)
+		(property "Value" "MAGNETIC POGO CONN."
+			(at 191.77 56.8959 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,77 +2733,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 56.642 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "89f489c4-999e-4090-88a0-aee5fe9a697d")
-		)
-		(pin "1"
-			(uuid "7a974c3c-c136-47f0-8b33-d504f649519d")
-		)
-		(instances
-			(project "sensor-board-light"
-				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 158.75 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a04f1a36-2f98-4e55-ab8e-1b3e6eff6121")
-		(property "Reference" "#PWR010"
-			(at 162.56 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 154.94 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 55.88 0)
+		(property "Footprint" "batteryholder:MAGNETIC POGO CONN."
+			(at 196.342 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 55.88 0)
+			(at 189.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,22 +2751,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 158.75 55.88 0)
+		(property "Description" ""
+			(at 189.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "d1904f67-301a-4728-a322-57f31a6c677c")
+		)
+		(pin "3"
+			(uuid "37fe9e5e-c3a3-4153-990a-872fb28b2c19")
 		)
 		(pin "1"
-			(uuid "0b95f54b-3488-431a-9f15-b4c24c5967e8")
+			(uuid "2c0bda69-3563-4434-99e5-d3e59e83d768")
+		)
+		(pin "4"
+			(uuid "a6ef18a1-9238-4fee-9af0-fb519af3fb02")
 		)
 		(instances
 			(project "sensor-board-light"
 				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
-					(reference "#PWR010")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2705,26 +2863,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 58.42 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 79.7485 153.5547 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb578758-4b28-44bb-9f55-7b91bc7e01ed")
-		(property "Reference" "#PWR016"
-			(at 162.56 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 154.94 58.4199 90)
+		(uuid "cb321c47-7c27-4c0d-b560-dfec7f85dacc")
+		(property "Reference" "H2"
+			(at 82.2885 152.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,8 +2881,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 58.42 0)
+		(property "Value" "MountingHole"
+			(at 82.2885 154.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 79.7485 153.5547 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,8 +2899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 158.75 58.42 0)
+		(property "Datasheet" "~"
+			(at 79.7485 153.5547 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,22 +2908,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 58.42 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 79.7485 153.5547 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "dc05ad1e-fc38-4a8d-aed2-1add6de683f9")
 		)
 		(instances
 			(project "sensor-board-light"
 				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
-					(reference "#PWR016")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2842,181 +2997,33 @@
 		)
 	)
 	(symbol
-		(lib_id "878-22-004-10-011101:878-22-004-10-011101")
-		(at 158.75 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd2ead24-6964-4e5a-a0ac-62dcc46de674")
-		(property "Reference" "J7"
-			(at 175.26 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "878-22-004-10-011101"
-			(at 155.956 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BOREALIS:8782200410011101"
-			(at 175.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mill-max.com/products/spring-loaded/slc-pin-header-strip/878-xx-xxx-10-011101/878-22-004-10-011101?s_term=878-22-004-10-011101&s_type=Quick/Product/Part%20Number%20Search"
-			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Headers & Wire Housings Magnetic Spring-Loaded Pin Header Strip 4 Pins"
-			(at 175.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.6"
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "575-8782200410010000"
-			(at 175.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mill-Max/878-22-004-10-011101?qs=t7xnP681wgWdOYPvR3%252B%2FbA%3D%3D"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Mill-Max"
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "878-22-004-10-011101"
-			(at 175.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "10346164-ddbb-4249-acf1-d17dbf34e3b9")
-		)
-		(pin "1"
-			(uuid "617f8c43-4f53-4cee-9f2c-2c84cae04892")
-		)
-		(pin "4"
-			(uuid "2578f146-d677-4c00-abea-c78fcc948d7b")
-		)
-		(pin "2"
-			(uuid "9fd7d52a-fbf6-4138-9e13-ef062c4d4b77")
-		)
-		(instances
-			(project "sensor-board-light"
-				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 57.15 0)
+		(lib_id "magnetic_pogo_conn.:MAGNETIC_POGO_CONN.")
+		(at 156.21 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ec5d3182-1ccd-47d0-98ec-891b74f41a76")
-		(property "Reference" "R4"
-			(at 76.2 55.8799 0)
+		(uuid "ee79f6b0-c6ee-4f08-9e77-f35e66898feb")
+		(property "Reference" "U2"
+			(at 156.1973 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 76.2 58.4199 0)
+		(property "Value" "MAGNETIC POGO CONN."
+			(at 156.1973 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 71.882 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 57.15 0)
+		(property "Footprint" "batteryholder:MAGNETIC POGO CONN."
+			(at 149.098 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,8 +3031,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 73.66 57.15 0)
+		(property "Datasheet" ""
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,15 +3050,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "505c592a-5dc8-4845-9fcf-2822fcd9037c")
+			(uuid "6781a32a-4a76-433c-8dd2-e9508cf70a56")
+		)
+		(pin "3"
+			(uuid "d1b516f0-cc60-4476-9cc3-2eee50d1fc66")
 		)
 		(pin "1"
-			(uuid "c744e4a3-0a4c-4ae9-93a4-67d24c27785d")
+			(uuid "633bffb7-c1c4-4bea-b2c6-3e0bbd81f566")
+		)
+		(pin "4"
+			(uuid "b465f22a-a17b-4b20-9adc-9220d42fd5a2")
 		)
 		(instances
 			(project "sensor-board-light"
 				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
-					(reference "R4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3074,7 +3096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 123.19 115.57 0)
 			(effects
 				(font
@@ -3187,6 +3209,140 @@
 			(project "sensor-board-light"
 				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 185.42 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5fe7d6e-cdc6-469e-9013-f9e93f4261ca")
+		(property "Reference" "#PWR07"
+			(at 189.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 181.61 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e74d705-c947-4b72-8075-d46d6b68c446")
+		)
+		(instances
+			(project "sensor-board-light"
+				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d0ba4b-3ad4-4391-9a44-418bc837b5f8")
+		(property "Reference" "#PWR01"
+			(at 179.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f54a6c5-19d9-459e-b2f2-998afe648949")
+		)
+		(instances
+			(project "sensor-board-light"
+				(path "/726314c5-8b2a-4d92-8d4d-3d9717bee1d8"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

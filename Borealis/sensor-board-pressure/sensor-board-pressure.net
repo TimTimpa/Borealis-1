@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Users\\Gitan\\Downloads\\Borealis-1\\Borealis\\sensor-board-pressure\\sensor-board-pressure.kicad_sch")
-    (date "2026-02-05T00:47:40+0100")
+    (date "2026-02-07T15:48:59+0100")
     (tool "Eeschema 9.0.6")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -62,6 +62,23 @@
       (property (name "ki_fp_filters") (value "CAPC17595_95N_KEM CAPC17595_95N_KEM-M CAPC17595_95N_KEM-L"))
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "794ae043-07db-42ab-a365-fc5b70b39b17"))
+    (comp (ref "H1")
+      (value "MountingHole")
+      (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad")
+      (datasheet "~")
+      (description "Mounting Hole without connection")
+      (fields
+        (field (name "Footprint") "MountingHole:MountingHole_2.7mm_M2.5_Pad")
+        (field (name "Datasheet") "~")
+        (field (name "Description") "Mounting Hole without connection"))
+      (libsource (lib "Mechanical") (part "MountingHole") (description "Mounting Hole without connection"))
+      (property (name "Sheetname") (value "Root"))
+      (property (name "Sheetfile") (value "sensor-board-pressure.kicad_sch"))
+      (property (name "exclude_from_bom"))
+      (property (name "ki_keywords") (value "mounting hole"))
+      (property (name "ki_fp_filters") (value "MountingHole*"))
+      (sheetpath (names "/") (tstamps "/"))
+      (tstamps "4b22fca2-2317-499a-89d7-fde2ffa822db"))
     (comp (ref "R1")
       (value "R")
       (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -182,6 +199,17 @@
       (pins
         (pin (num "1") (name "") (type "passive"))
         (pin (num "2") (name "") (type "passive"))))
+    (libpart (lib "Mechanical") (part "MountingHole")
+      (description "Mounting Hole without connection")
+      (docs "~")
+      (footprints
+        (fp "MountingHole*"))
+      (fields
+        (field (name "Reference") "H")
+        (field (name "Value") "MountingHole")
+        (field (name "Footprint"))
+        (field (name "Datasheet") "~")
+        (field (name "Description") "Mounting Hole without connection")))
     (libpart (lib "magnetic_pogo_conn.") (part "MAGNETIC_POGO_CONN.")
       (fields
         (field (name "Reference") "U")
@@ -197,6 +225,8 @@
   (libraries
     (library (logical "Device")
       (uri "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\/Device.kicad_sym"))
+    (library (logical "Mechanical")
+      (uri "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\/Mechanical.kicad_sym"))
     (library (logical "magnetic_pogo_conn.")
       (uri "C:/Users/Gitan/Downloads/magnetic_pogo_conn..kicad_sym")))
   (nets
