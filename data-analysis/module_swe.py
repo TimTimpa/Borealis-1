@@ -30,7 +30,7 @@ class getter:
         return self.headers
 
 class läs:
-    def __init__(self, path:str = 'data.csv', x:str='alt'):
+    def __init__(self, path:str = 'data.csv', x:str='Elevation_m'):
         self.x = []
         self.y = []
         with open(path, 'r') as file:
